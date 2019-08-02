@@ -1,0 +1,31 @@
+create table 1000genomes(
+  project_name			 char(200) not null,
+  investigation_type		 char(200),
+  project_location		 char(200),
+  project_date			 datetime,
+  species_of_origin		 char(50) not null,
+  species_subcategory		 char(50),               -- strain ID and so on
+  chromosome	 char(5) not null,                    -- validate this number depending on species?
+  submitted_to_INSDC_yn		 bit, 
+  source_material		 char(50),
+  health_status			 char(50),
+  nucleic_acid_prep_method	 char(200),
+  library_construction_method	 char(200),
+  sequencing_method		 char(200),
+  assembly_method		 char(200),
+  finishing_strategy		 char(200),
+  SOP_link			 char(200),
+  resource_link			 char(200),
+  reference_sequence_link	 char(200),
+  genome_size			 int,
+  percentage_GC			 int,			-- validate between 0 and 100
+  total_number_of_genes		 int,			-- validate; not less than sum of 
+  number_of_protein_genes	 int,			--            subsequent 4 columns
+  number_of_rRNA_genes		 int,
+  number_of_tRNA_genes		 int,
+  number_of_other_genes		 int,
+  percentage_accessible		 int,			-- validate between 0 and 100
+  number_of_SNPs		 int,
+  number_of_indels		 int,
+  number_of_LSVs		 int
+);
