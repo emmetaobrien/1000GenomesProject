@@ -1,7 +1,9 @@
 {
-	"$schema": "https://w3id.org/dats/schema/dataset_schema.json",
+	"@context": "https://w3id.org/dats/schema/dataset_schema.json",
 	"@type": "Dataset",
 	"identifier": {
+		"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                "@type": "Identifier",
 		"identifier": "dummy",
 		"identifierSource": "DOI"
 	},
@@ -9,21 +11,21 @@
 	"privacy": "public open",
 	"licenses": [
 		{
-			"$schema": "https://w3id.org/dats/schema/license_schema.json",
+			"@id": "https://w3id.org/dats/schema/license_schema.json",
 			"@type": "Licence",
 			"name": "BY-NC-SA"
 		}
 	],
 	"creators": [
 		{
-			"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+			"@id": "https://w3id.org/dats/schema/organization_schema.json",
 			"@type": "Organization",
 			"name": "1000 Genomes Project"
 		}
 	],
 	"types": [
 		{
-			"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+			"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 			"@type": "Annotation",
 			"information": {
 				"value": "genomics"
@@ -37,17 +39,17 @@
 	},
 	"primaryPublications" : [
 		{
-            		"$schema": "https://w3id.org/dats/schema/publication_schema.json",
+            		"@id": "https://w3id.org/dats/schema/publication_schema.json",
             		"@type": "Publication",
 			"identifier": {
-				"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+				"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
 		                "@type": "Identifier",
 				"identifier": "https://doi.org/10.1038/nature15393"
 			},
 			"title": "A global reference for human genetic variation",
 			"dates": [
 				{
-					"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
 						"value":"Primary reference publication date"
@@ -57,7 +59,7 @@
 			],
 			"authors": [
 				{
-				"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+				"@id": "https://w3id.org/dats/schema/organization_schema.json",
 	                        "@type": "Organization",
 				"name":"1000 Genomes Project"
 				}
@@ -66,10 +68,10 @@
 	],
 	"isAbout": [
 		{
-			"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+			"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 			"@type": "BiologicalEntity",
 			"identifier": {
-		                "$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+		                "@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
                 		"@type": "Identifier",
 				"identifier": "9606",
 				"identifierSource":"https://www.ncbi.nlm.nih.gov/taxonomy/9606"
@@ -79,7 +81,7 @@
 	],
 	"dates": [
 		{
-			"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+			"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 			"@type": "Date",
 			"type": {
 				"value":"CONP DATS JSON fileset creation date"
@@ -89,7 +91,7 @@
 	],
 	"keywords": [
 		{
-			"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+			"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 			"@type": "Annotation",
 			"value" : "genomics"
 		}
@@ -99,14 +101,14 @@
 			"title":"Chromosome 1",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
@@ -115,7 +117,7 @@
 			],
 			"dates": [
 				{
-					"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
 						"value":"source .vcf file creation date"
@@ -129,7 +131,7 @@
 			},
 			"dimensions": [
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of Single Nucleotide Polymorphism variants"
@@ -139,7 +141,7 @@
 					]
 				},
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
@@ -164,14 +166,14 @@
 			"title":"Chromosome 10",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
@@ -180,7 +182,7 @@
 			],
 			"dates": [
 				{
-					"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
 						"value":"source .vcf file creation date"
@@ -194,7 +196,7 @@
 			},
 			"dimensions": [
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of Single Nucleotide Polymorphism variants"
@@ -204,7 +206,7 @@
 					]
 				},
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
@@ -229,14 +231,14 @@
 			"title":"Chromosome 11",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
@@ -245,7 +247,7 @@
 			],
 			"dates": [
 				{
-					"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
 						"value":"source .vcf file creation date"
@@ -259,7 +261,7 @@
 			},
 			"dimensions": [
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of Single Nucleotide Polymorphism variants"
@@ -269,7 +271,7 @@
 					]
 				},
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
@@ -294,14 +296,14 @@
 			"title":"Chromosome 12",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
@@ -310,7 +312,7 @@
 			],
 			"dates": [
 				{
-					"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
 						"value":"source .vcf file creation date"
@@ -324,7 +326,7 @@
 			},
 			"dimensions": [
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of Single Nucleotide Polymorphism variants"
@@ -334,7 +336,7 @@
 					]
 				},
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
@@ -359,14 +361,14 @@
 			"title":"Chromosome 13",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
@@ -375,7 +377,7 @@
 			],
 			"dates": [
 				{
-					"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
 						"value":"source .vcf file creation date"
@@ -389,7 +391,7 @@
 			},
 			"dimensions": [
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of Single Nucleotide Polymorphism variants"
@@ -399,7 +401,7 @@
 					]
 				},
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
@@ -424,14 +426,14 @@
 			"title":"Chromosome 14",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
@@ -440,7 +442,7 @@
 			],
 			"dates": [
 				{
-					"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
 						"value":"source .vcf file creation date"
@@ -454,7 +456,7 @@
 			},
 			"dimensions": [
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of Single Nucleotide Polymorphism variants"
@@ -464,7 +466,7 @@
 					]
 				},
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
@@ -489,14 +491,14 @@
 			"title":"Chromosome 15",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
@@ -505,7 +507,7 @@
 			],
 			"dates": [
 				{
-					"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
 						"value":"source .vcf file creation date"
@@ -519,7 +521,7 @@
 			},
 			"dimensions": [
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of Single Nucleotide Polymorphism variants"
@@ -529,7 +531,7 @@
 					]
 				},
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
@@ -554,14 +556,14 @@
 			"title":"Chromosome 16",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
@@ -570,7 +572,7 @@
 			],
 			"dates": [
 				{
-					"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
 						"value":"source .vcf file creation date"
@@ -584,7 +586,7 @@
 			},
 			"dimensions": [
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of Single Nucleotide Polymorphism variants"
@@ -594,7 +596,7 @@
 					]
 				},
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
@@ -619,14 +621,14 @@
 			"title":"Chromosome 17",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
@@ -635,7 +637,7 @@
 			],
 			"dates": [
 				{
-					"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
 						"value":"source .vcf file creation date"
@@ -649,7 +651,7 @@
 			},
 			"dimensions": [
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of Single Nucleotide Polymorphism variants"
@@ -659,7 +661,7 @@
 					]
 				},
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
@@ -684,14 +686,14 @@
 			"title":"Chromosome 18",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
@@ -700,7 +702,7 @@
 			],
 			"dates": [
 				{
-					"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
 						"value":"source .vcf file creation date"
@@ -714,7 +716,7 @@
 			},
 			"dimensions": [
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of Single Nucleotide Polymorphism variants"
@@ -724,7 +726,7 @@
 					]
 				},
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
@@ -749,14 +751,14 @@
 			"title":"Chromosome 19",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
@@ -765,7 +767,7 @@
 			],
 			"dates": [
 				{
-					"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
 						"value":"source .vcf file creation date"
@@ -779,7 +781,7 @@
 			},
 			"dimensions": [
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of Single Nucleotide Polymorphism variants"
@@ -789,7 +791,7 @@
 					]
 				},
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
@@ -814,14 +816,14 @@
 			"title":"Chromosome 2",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
@@ -830,7 +832,7 @@
 			],
 			"dates": [
 				{
-					"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
 						"value":"source .vcf file creation date"
@@ -844,7 +846,7 @@
 			},
 			"dimensions": [
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of Single Nucleotide Polymorphism variants"
@@ -854,7 +856,7 @@
 					]
 				},
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
@@ -879,14 +881,14 @@
 			"title":"Chromosome 20",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
@@ -895,7 +897,7 @@
 			],
 			"dates": [
 				{
-					"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
 						"value":"source .vcf file creation date"
@@ -909,7 +911,7 @@
 			},
 			"dimensions": [
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of Single Nucleotide Polymorphism variants"
@@ -919,7 +921,7 @@
 					]
 				},
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
@@ -944,14 +946,14 @@
 			"title":"Chromosome 21",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
@@ -960,7 +962,7 @@
 			],
 			"dates": [
 				{
-					"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
 						"value":"source .vcf file creation date"
@@ -974,7 +976,7 @@
 			},
 			"dimensions": [
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of Single Nucleotide Polymorphism variants"
@@ -984,7 +986,7 @@
 					]
 				},
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
@@ -1009,14 +1011,14 @@
 			"title":"Chromosome 22",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
@@ -1025,7 +1027,7 @@
 			],
 			"dates": [
 				{
-					"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
 						"value":"source .vcf file creation date"
@@ -1039,7 +1041,7 @@
 			},
 			"dimensions": [
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of Single Nucleotide Polymorphism variants"
@@ -1049,7 +1051,7 @@
 					]
 				},
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
@@ -1074,14 +1076,14 @@
 			"title":"Chromosome 3",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
@@ -1090,7 +1092,7 @@
 			],
 			"dates": [
 				{
-					"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
 						"value":"source .vcf file creation date"
@@ -1104,7 +1106,7 @@
 			},
 			"dimensions": [
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of Single Nucleotide Polymorphism variants"
@@ -1114,7 +1116,7 @@
 					]
 				},
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
@@ -1139,14 +1141,14 @@
 			"title":"Chromosome 4",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
@@ -1155,7 +1157,7 @@
 			],
 			"dates": [
 				{
-					"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
 						"value":"source .vcf file creation date"
@@ -1169,7 +1171,7 @@
 			},
 			"dimensions": [
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of Single Nucleotide Polymorphism variants"
@@ -1179,7 +1181,7 @@
 					]
 				},
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
@@ -1204,14 +1206,14 @@
 			"title":"Chromosome 5",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
@@ -1220,7 +1222,7 @@
 			],
 			"dates": [
 				{
-					"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
 						"value":"source .vcf file creation date"
@@ -1234,7 +1236,7 @@
 			},
 			"dimensions": [
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of Single Nucleotide Polymorphism variants"
@@ -1244,7 +1246,7 @@
 					]
 				},
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
@@ -1269,14 +1271,14 @@
 			"title":"Chromosome 6",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
@@ -1285,7 +1287,7 @@
 			],
 			"dates": [
 				{
-					"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
 						"value":"source .vcf file creation date"
@@ -1299,7 +1301,7 @@
 			},
 			"dimensions": [
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of Single Nucleotide Polymorphism variants"
@@ -1309,7 +1311,7 @@
 					]
 				},
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
@@ -1334,14 +1336,14 @@
 			"title":"Chromosome 7",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
@@ -1350,7 +1352,7 @@
 			],
 			"dates": [
 				{
-					"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
 						"value":"source .vcf file creation date"
@@ -1364,7 +1366,7 @@
 			},
 			"dimensions": [
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of Single Nucleotide Polymorphism variants"
@@ -1374,7 +1376,7 @@
 					]
 				},
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
@@ -1399,14 +1401,14 @@
 			"title":"Chromosome 8",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
@@ -1415,7 +1417,7 @@
 			],
 			"dates": [
 				{
-					"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
 						"value":"source .vcf file creation date"
@@ -1429,7 +1431,7 @@
 			},
 			"dimensions": [
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of Single Nucleotide Polymorphism variants"
@@ -1439,7 +1441,7 @@
 					]
 				},
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
@@ -1464,14 +1466,14 @@
 			"title":"Chromosome 9",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
@@ -1480,7 +1482,7 @@
 			],
 			"dates": [
 				{
-					"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
 						"value":"source .vcf file creation date"
@@ -1494,7 +1496,7 @@
 			},
 			"dimensions": [
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of Single Nucleotide Polymorphism variants"
@@ -1504,7 +1506,7 @@
 					]
 				},
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
@@ -1529,14 +1531,14 @@
 			"title":"Mitochondrial genome",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
@@ -1545,7 +1547,7 @@
 			],
 			"dates": [
 				{
-					"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
 						"value":"source .vcf file creation date"
@@ -1559,7 +1561,7 @@
 			},
 			"dimensions": [
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of Single Nucleotide Polymorphism variants"
@@ -1569,7 +1571,7 @@
 					]
 				},
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
@@ -1594,14 +1596,14 @@
 			"title":"Chromosome X",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
@@ -1610,7 +1612,7 @@
 			],
 			"dates": [
 				{
-					"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
 						"value":"source .vcf file creation date"
@@ -1624,7 +1626,7 @@
 			},
 			"dimensions": [
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of Single Nucleotide Polymorphism variants"
@@ -1634,7 +1636,7 @@
 					]
 				},
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
@@ -1659,14 +1661,14 @@
 			"title":"Chromosome Y",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
@@ -1675,7 +1677,7 @@
 			],
 			"dates": [
 				{
-					"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
 						"value":"source .vcf file creation date"
@@ -1689,7 +1691,7 @@
 			},
 			"dimensions": [
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of Single Nucleotide Polymorphism variants"
@@ -1699,7 +1701,7 @@
 					]
 				},
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
