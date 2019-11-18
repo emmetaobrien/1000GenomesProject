@@ -1,9 +1,33 @@
 {
-	"@context": "https://w3id.org/dats/schema/dataset_schema.json",
+	"@context": {
+		"sdo": "https://schema.org/",
+		"Dataset": "sdo:Dataset",
+		"title": {
+      			"@id": "sdo:name",
+      			"@type": "sdo:Text"
+    		},
+    		"description": {
+      			"@id": "sdo:description",
+      			"@type": "sdo:Text"
+    		},
+    		"distributions": {
+		      "@id": "sdo:distribution",
+		      "@type": "sdo:DataDownload"
+	 	},
+	    	"primaryPublications": "sdo:citation",
+    		"citations": "sdo:citation",
+	    	"producedBy": "sdo:producer",
+    		"creators": "sdo:creator",
+	    	"licenses": "sdo:license",
+    		"isAbout": "sdo:about",
+	    	"hasPart": "sdo:hasPart",
+    		"acknowledges": "sdo:funder",
+	    	"keywords": "sdo:keywords"
+	},
 	"@type": "Dataset",
 	"identifier": {
 		"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
-                "@type": "Identifier",
+		"@type": "Identifier",
 		"identifier": "dummy",
 		"identifierSource": "DOI"
 	},
@@ -12,7 +36,7 @@
 	"licenses": [
 		{
 			"@id": "https://w3id.org/dats/schema/license_schema.json",
-			"@type": "Licence",
+			"@type": "License",
 			"name": "BY-NC-SA"
 		}
 	],
