@@ -1,33 +1,35 @@
 {
-	"@context": {
-		"sdo": "https://schema.org/",
-		"Dataset": "sdo:Dataset",
-		"title": {
-      			"@id": "sdo:name",
-      			"@type": "sdo:Text"
-    		},
-    		"description": {
-      			"@id": "sdo:description",
-      			"@type": "sdo:Text"
-    		},
-    		"distributions": {
-		      "@id": "sdo:distribution",
-		      "@type": "sdo:DataDownload"
-	 	},
-	    	"primaryPublications": "sdo:citation",
-    		"citations": "sdo:citation",
-	    	"producedBy": "sdo:producer",
-    		"creators": "sdo:creator",
-	    	"licenses": "sdo:license",
-    		"isAbout": "sdo:about",
-	    	"hasPart": "sdo:hasPart",
-    		"acknowledges": "sdo:funder",
-	    	"keywords": "sdo:keywords"
-	},
-	"@type": "Dataset",
+	"@context": 
+		[ 
+			{
+				"sdo": "https://schema.org/",
+				"Dataset": "sdo:Dataset",
+				"title": {
+					"@id": "sdo:name",
+					"@type": "sdo:Text"
+				},
+				"description": {
+					"@id": "sdo:description",
+					"@type": "sdo:Text"
+				},
+				"distributions": {
+					"@id": "sdo:distribution",
+					"@type": "sdo:DataDownload"
+				},
+				"primaryPublications": "sdo:citation",
+				"citations": "sdo:citation",
+				"producedBy": "sdo:producer",
+				"creators": "sdo:creator",
+				"licenses": "sdo:license",
+				"isAbout": "sdo:about",
+				"hasPart": "sdo:hasPart",
+				"acknowledges": "sdo:funder",
+				"keywords": "sdo:keywords",
+				"dates": "sdo:date",
+				"storedIn": "sdo:url"
+			}
+		],
 	"identifier": {
-		"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
-		"@type": "Identifier",
 		"identifier": "dummy",
 		"identifierSource": "DOI"
 	},
@@ -36,21 +38,19 @@
 	"licenses": [
 		{
 			"@id": "https://w3id.org/dats/schema/license_schema.json",
-			"@type": "License",
+			"@type": "Licence",
 			"name": "BY-NC-SA"
 		}
 	],
 	"creators": [
 		{
 			"@id": "https://w3id.org/dats/schema/organization_schema.json",
-			"@type": "Organization",
+			"@type": "creators",
 			"name": "1000 Genomes Project"
 		}
 	],
 	"types": [
 		{
-			"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-			"@type": "Annotation",
 			"information": {
 				"value": "genomics"
 			}
@@ -63,11 +63,7 @@
 	},
 	"primaryPublications" : [
 		{
-            		"@id": "https://w3id.org/dats/schema/publication_schema.json",
-            		"@type": "Publication",
 			"identifier": {
-				"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
-		                "@type": "Identifier",
 				"identifier": "https://doi.org/10.1038/nature15393"
 			},
 			"title": "A global reference for human genetic variation",
@@ -76,6 +72,8 @@
 					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
+						"@id": "https://w3id.org/dats/schema/annotation_schema.json",
+						"@type": "Annotation",
 						"value":"Primary reference publication date"
 					},
 					"date": "2015-10-01 00:00:00"
@@ -83,8 +81,8 @@
 			],
 			"authors": [
 				{
-				"@id": "https://w3id.org/dats/schema/organization_schema.json",
-	                        "@type": "Organization",
+					"@id": "https://w3id.org/dats/schema/person_schema.json",
+					"@type": "Person",
 				"name":"1000 Genomes Project"
 				}
 			]
@@ -95,8 +93,6 @@
 			"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 			"@type": "BiologicalEntity",
 			"identifier": {
-		                "@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
-                		"@type": "Identifier",
 				"identifier": "9606",
 				"identifierSource":"https://www.ncbi.nlm.nih.gov/taxonomy/9606"
 			},
@@ -108,6 +104,8 @@
 			"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 			"@type": "Date",
 			"type": {
+				"@id": "https://w3id.org/dats/schema/annotation_schema.json",
+				"@type": "Annotation",
 				"value":"CONP DATS JSON fileset creation date"
 			},
 			"date": "2019-07-31 11:21:58"
@@ -126,14 +124,12 @@
 			"creators": [
 				{
 					"@id": "https://w3id.org/dats/schema/organization_schema.json",
-					"@type": "Organization",
+					"@type": "creators",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
 					}
@@ -144,6 +140,8 @@
 					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
+						"@id": "https://w3id.org/dats/schema/annotation_schema.json",
+						"@type": "Annotation",
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
@@ -165,8 +163,6 @@
 					]
 				},
 				{
-					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
-					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
 					},
@@ -191,14 +187,12 @@
 			"creators": [
 				{
 					"@id": "https://w3id.org/dats/schema/organization_schema.json",
-					"@type": "Organization",
+					"@type": "creators",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
 					}
@@ -209,6 +203,8 @@
 					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
+						"@id": "https://w3id.org/dats/schema/annotation_schema.json",
+						"@type": "Annotation",
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
@@ -230,8 +226,6 @@
 					]
 				},
 				{
-					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
-					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
 					},
@@ -256,14 +250,12 @@
 			"creators": [
 				{
 					"@id": "https://w3id.org/dats/schema/organization_schema.json",
-					"@type": "Organization",
+					"@type": "creators",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
 					}
@@ -274,6 +266,8 @@
 					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
+						"@id": "https://w3id.org/dats/schema/annotation_schema.json",
+						"@type": "Annotation",
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
@@ -295,8 +289,6 @@
 					]
 				},
 				{
-					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
-					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
 					},
@@ -321,14 +313,12 @@
 			"creators": [
 				{
 					"@id": "https://w3id.org/dats/schema/organization_schema.json",
-					"@type": "Organization",
+					"@type": "creators",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
 					}
@@ -339,6 +329,8 @@
 					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
+						"@id": "https://w3id.org/dats/schema/annotation_schema.json",
+						"@type": "Annotation",
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
@@ -360,8 +352,6 @@
 					]
 				},
 				{
-					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
-					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
 					},
@@ -386,14 +376,12 @@
 			"creators": [
 				{
 					"@id": "https://w3id.org/dats/schema/organization_schema.json",
-					"@type": "Organization",
+					"@type": "creators",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
 					}
@@ -404,6 +392,8 @@
 					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
+						"@id": "https://w3id.org/dats/schema/annotation_schema.json",
+						"@type": "Annotation",
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
@@ -425,8 +415,6 @@
 					]
 				},
 				{
-					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
-					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
 					},
@@ -451,14 +439,12 @@
 			"creators": [
 				{
 					"@id": "https://w3id.org/dats/schema/organization_schema.json",
-					"@type": "Organization",
+					"@type": "creators",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
 					}
@@ -469,6 +455,8 @@
 					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
+						"@id": "https://w3id.org/dats/schema/annotation_schema.json",
+						"@type": "Annotation",
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
@@ -490,8 +478,6 @@
 					]
 				},
 				{
-					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
-					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
 					},
@@ -516,14 +502,12 @@
 			"creators": [
 				{
 					"@id": "https://w3id.org/dats/schema/organization_schema.json",
-					"@type": "Organization",
+					"@type": "creators",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
 					}
@@ -534,6 +518,8 @@
 					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
+						"@id": "https://w3id.org/dats/schema/annotation_schema.json",
+						"@type": "Annotation",
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
@@ -555,8 +541,6 @@
 					]
 				},
 				{
-					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
-					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
 					},
@@ -581,14 +565,12 @@
 			"creators": [
 				{
 					"@id": "https://w3id.org/dats/schema/organization_schema.json",
-					"@type": "Organization",
+					"@type": "creators",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
 					}
@@ -599,6 +581,8 @@
 					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
+						"@id": "https://w3id.org/dats/schema/annotation_schema.json",
+						"@type": "Annotation",
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
@@ -620,8 +604,6 @@
 					]
 				},
 				{
-					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
-					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
 					},
@@ -646,14 +628,12 @@
 			"creators": [
 				{
 					"@id": "https://w3id.org/dats/schema/organization_schema.json",
-					"@type": "Organization",
+					"@type": "creators",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
 					}
@@ -664,6 +644,8 @@
 					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
+						"@id": "https://w3id.org/dats/schema/annotation_schema.json",
+						"@type": "Annotation",
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
@@ -685,8 +667,6 @@
 					]
 				},
 				{
-					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
-					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
 					},
@@ -711,14 +691,12 @@
 			"creators": [
 				{
 					"@id": "https://w3id.org/dats/schema/organization_schema.json",
-					"@type": "Organization",
+					"@type": "creators",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
 					}
@@ -729,6 +707,8 @@
 					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
+						"@id": "https://w3id.org/dats/schema/annotation_schema.json",
+						"@type": "Annotation",
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
@@ -750,8 +730,6 @@
 					]
 				},
 				{
-					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
-					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
 					},
@@ -776,14 +754,12 @@
 			"creators": [
 				{
 					"@id": "https://w3id.org/dats/schema/organization_schema.json",
-					"@type": "Organization",
+					"@type": "creators",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
 					}
@@ -794,6 +770,8 @@
 					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
+						"@id": "https://w3id.org/dats/schema/annotation_schema.json",
+						"@type": "Annotation",
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
@@ -815,8 +793,6 @@
 					]
 				},
 				{
-					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
-					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
 					},
@@ -841,14 +817,12 @@
 			"creators": [
 				{
 					"@id": "https://w3id.org/dats/schema/organization_schema.json",
-					"@type": "Organization",
+					"@type": "creators",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
 					}
@@ -859,6 +833,8 @@
 					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
+						"@id": "https://w3id.org/dats/schema/annotation_schema.json",
+						"@type": "Annotation",
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
@@ -880,8 +856,6 @@
 					]
 				},
 				{
-					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
-					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
 					},
@@ -906,14 +880,12 @@
 			"creators": [
 				{
 					"@id": "https://w3id.org/dats/schema/organization_schema.json",
-					"@type": "Organization",
+					"@type": "creators",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
 					}
@@ -924,6 +896,8 @@
 					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
+						"@id": "https://w3id.org/dats/schema/annotation_schema.json",
+						"@type": "Annotation",
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
@@ -945,8 +919,6 @@
 					]
 				},
 				{
-					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
-					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
 					},
@@ -971,14 +943,12 @@
 			"creators": [
 				{
 					"@id": "https://w3id.org/dats/schema/organization_schema.json",
-					"@type": "Organization",
+					"@type": "creators",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
 					}
@@ -989,6 +959,8 @@
 					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
+						"@id": "https://w3id.org/dats/schema/annotation_schema.json",
+						"@type": "Annotation",
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
@@ -1010,8 +982,6 @@
 					]
 				},
 				{
-					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
-					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
 					},
@@ -1036,14 +1006,12 @@
 			"creators": [
 				{
 					"@id": "https://w3id.org/dats/schema/organization_schema.json",
-					"@type": "Organization",
+					"@type": "creators",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
 					}
@@ -1054,6 +1022,8 @@
 					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
+						"@id": "https://w3id.org/dats/schema/annotation_schema.json",
+						"@type": "Annotation",
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
@@ -1075,8 +1045,6 @@
 					]
 				},
 				{
-					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
-					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
 					},
@@ -1101,14 +1069,12 @@
 			"creators": [
 				{
 					"@id": "https://w3id.org/dats/schema/organization_schema.json",
-					"@type": "Organization",
+					"@type": "creators",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
 					}
@@ -1119,6 +1085,8 @@
 					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
+						"@id": "https://w3id.org/dats/schema/annotation_schema.json",
+						"@type": "Annotation",
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
@@ -1140,8 +1108,6 @@
 					]
 				},
 				{
-					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
-					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
 					},
@@ -1166,14 +1132,12 @@
 			"creators": [
 				{
 					"@id": "https://w3id.org/dats/schema/organization_schema.json",
-					"@type": "Organization",
+					"@type": "creators",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
 					}
@@ -1184,6 +1148,8 @@
 					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
+						"@id": "https://w3id.org/dats/schema/annotation_schema.json",
+						"@type": "Annotation",
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
@@ -1205,8 +1171,6 @@
 					]
 				},
 				{
-					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
-					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
 					},
@@ -1231,14 +1195,12 @@
 			"creators": [
 				{
 					"@id": "https://w3id.org/dats/schema/organization_schema.json",
-					"@type": "Organization",
+					"@type": "creators",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
 					}
@@ -1249,6 +1211,8 @@
 					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
+						"@id": "https://w3id.org/dats/schema/annotation_schema.json",
+						"@type": "Annotation",
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
@@ -1270,8 +1234,6 @@
 					]
 				},
 				{
-					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
-					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
 					},
@@ -1296,14 +1258,12 @@
 			"creators": [
 				{
 					"@id": "https://w3id.org/dats/schema/organization_schema.json",
-					"@type": "Organization",
+					"@type": "creators",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
 					}
@@ -1314,6 +1274,8 @@
 					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
+						"@id": "https://w3id.org/dats/schema/annotation_schema.json",
+						"@type": "Annotation",
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
@@ -1335,8 +1297,6 @@
 					]
 				},
 				{
-					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
-					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
 					},
@@ -1361,14 +1321,12 @@
 			"creators": [
 				{
 					"@id": "https://w3id.org/dats/schema/organization_schema.json",
-					"@type": "Organization",
+					"@type": "creators",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
 					}
@@ -1379,6 +1337,8 @@
 					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
+						"@id": "https://w3id.org/dats/schema/annotation_schema.json",
+						"@type": "Annotation",
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
@@ -1400,8 +1360,6 @@
 					]
 				},
 				{
-					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
-					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
 					},
@@ -1426,14 +1384,12 @@
 			"creators": [
 				{
 					"@id": "https://w3id.org/dats/schema/organization_schema.json",
-					"@type": "Organization",
+					"@type": "creators",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
 					}
@@ -1444,6 +1400,8 @@
 					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
+						"@id": "https://w3id.org/dats/schema/annotation_schema.json",
+						"@type": "Annotation",
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
@@ -1465,8 +1423,6 @@
 					]
 				},
 				{
-					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
-					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
 					},
@@ -1491,14 +1447,12 @@
 			"creators": [
 				{
 					"@id": "https://w3id.org/dats/schema/organization_schema.json",
-					"@type": "Organization",
+					"@type": "creators",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
 					}
@@ -1509,6 +1463,8 @@
 					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
+						"@id": "https://w3id.org/dats/schema/annotation_schema.json",
+						"@type": "Annotation",
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
@@ -1530,8 +1486,6 @@
 					]
 				},
 				{
-					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
-					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
 					},
@@ -1556,14 +1510,12 @@
 			"creators": [
 				{
 					"@id": "https://w3id.org/dats/schema/organization_schema.json",
-					"@type": "Organization",
+					"@type": "creators",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
 					}
@@ -1574,6 +1526,8 @@
 					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
+						"@id": "https://w3id.org/dats/schema/annotation_schema.json",
+						"@type": "Annotation",
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-10-02 00:00:00"
@@ -1595,8 +1549,6 @@
 					]
 				},
 				{
-					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
-					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
 					},
@@ -1621,14 +1573,12 @@
 			"creators": [
 				{
 					"@id": "https://w3id.org/dats/schema/organization_schema.json",
-					"@type": "Organization",
+					"@type": "creators",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
 					}
@@ -1639,6 +1589,8 @@
 					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
+						"@id": "https://w3id.org/dats/schema/annotation_schema.json",
+						"@type": "Annotation",
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
@@ -1660,8 +1612,6 @@
 					]
 				},
 				{
-					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
-					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
 					},
@@ -1686,14 +1636,12 @@
 			"creators": [
 				{
 					"@id": "https://w3id.org/dats/schema/organization_schema.json",
-					"@type": "Organization",
+					"@type": "creators",
 					"name": "1000 Genomes Project"
 				}
 			],
 			"types": [
 				{
-					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
-					"@type": "Annotation",
 					"information": {
 						"value": "genomics"
 					}
@@ -1704,6 +1652,8 @@
 					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
+						"@id": "https://w3id.org/dats/schema/annotation_schema.json",
+						"@type": "Annotation",
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
@@ -1725,8 +1675,6 @@
 					]
 				},
 				{
-					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
-					"@type": "Dimension",
 					"name": {
 						"value": "Count of single-nucleotide insertion and deletion events"
 					},
