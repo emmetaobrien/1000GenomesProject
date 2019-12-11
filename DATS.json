@@ -60,9 +60,24 @@
 	"dates": [
 		{
 			"type": {
-				"value":"CONP DATS JSON fileset creation date"
+				"value": "CONP DATS JSON fileset creation date"
 			},
 			"date": "2019-07-31 11:21:58"
+		}
+	],
+	"distributions": [
+	        {
+			"formats": [
+				"vcf",
+				"FASTA"
+            		],
+			"size" : "1",
+		        "unit" : {
+            			"value": "GB"
+		        },
+			"access": {
+				"landingPage": "https://www.internationalgenome.org/"
+			}
 		}
 	],
 	"keywords": [
@@ -1453,6 +1468,30 @@
 			"values": [
 				{
 					"value": "Jennifer Tremblay-Mercier, Research Co-ordinator, jennifer.tremblay-mercier@douglas.mcgill.ca, 514-761-6131 #3329"
+				}
+			]
+		},
+		{
+			"category": "files",
+			"values": [
+				{
+					"value": "25"
+				}
+			]
+		},
+		{
+			"category": "subjects",
+			"values": [
+				{
+					"value": "2504"
+				}
+			]
+		},
+		{
+			"category": "logo",
+			"values": [
+				{
+					"value": "logo.png"
 				}
 			]
 		}
