@@ -71,7 +71,7 @@
 				"vcf",
 				"FASTA"
             		],
-			"size" : "1",
+			"size" : 1,
 		        "unit" : {
             			"value": "GB"
 		        },
