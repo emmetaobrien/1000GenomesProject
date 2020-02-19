@@ -77,7 +77,11 @@
 		        },
 			"access": {
 				"landingPage": "https://www.internationalgenome.org/",
-				"annotation": "public"
+				"authorizations": [
+					{
+						"value": "public"
+					}
+				]
 			}
 		}
 	],
