@@ -76,7 +76,8 @@
             			"value": "GB"
 		        },
 			"access": {
-				"landingPage": "https://www.internationalgenome.org/"
+				"landingPage": "https://www.internationalgenome.org/",
+				"annotation": "public"
 			}
 		}
 	],
