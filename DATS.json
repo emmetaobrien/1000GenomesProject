@@ -68,7 +68,7 @@
 	"distributions": [
 	        {
 			"formats": [
-				"vcf",
+				".VCF",
 				"FASTA"
             		],
 			"size" : 1,
