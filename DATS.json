@@ -68,7 +68,7 @@
 	"distributions": [
 	        {
 			"formats": [
-				"vcf",
+				".VCF",
 				"FASTA"
             		],
 			"size" : 1,
@@ -76,7 +76,12 @@
             			"value": "GB"
 		        },
 			"access": {
-				"landingPage": "https://www.internationalgenome.org/"
+				"landingPage": "https://www.internationalgenome.org/",
+				"authorizations": [
+					{
+						"value": "public"
+					}
+				]
 			}
 		}
 	],
@@ -106,6 +111,18 @@
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "genomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Chromosome 1",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -163,6 +180,18 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
+			"keywords": [
+				{
+					"value" : "genomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Chromosome 10",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr10.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz",
 				"description": "Gzipped .vcf file containing sequence variations"
@@ -216,6 +245,18 @@
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "genomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Chromosome 11",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -273,6 +314,18 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
+			"keywords": [
+				{
+					"value" : "genomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Chromosome 12",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr12.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz",
 				"description": "Gzipped .vcf file containing sequence variations"
@@ -326,6 +379,18 @@
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "genomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Chromosome 13",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -383,6 +448,18 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
+			"keywords": [
+				{
+					"value" : "genomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Chromosome 14",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr14.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz",
 				"description": "Gzipped .vcf file containing sequence variations"
@@ -436,6 +513,18 @@
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "genomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Chromosome 15",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -493,6 +582,18 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
+			"keywords": [
+				{
+					"value" : "genomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Chromosome 16",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr16.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz",
 				"description": "Gzipped .vcf file containing sequence variations"
@@ -546,6 +647,18 @@
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "genomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Chromosome 17",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -603,6 +716,18 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
+			"keywords": [
+				{
+					"value" : "genomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Chromosome 18",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr18.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz",
 				"description": "Gzipped .vcf file containing sequence variations"
@@ -656,6 +781,18 @@
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "genomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Chromosome 19",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -713,6 +850,18 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
+			"keywords": [
+				{
+					"value" : "genomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Chromosome 2",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr2.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz",
 				"description": "Gzipped .vcf file containing sequence variations"
@@ -766,6 +915,18 @@
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "genomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Chromosome 20",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -823,6 +984,18 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
+			"keywords": [
+				{
+					"value" : "genomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Chromosome 21",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr21.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz",
 				"description": "Gzipped .vcf file containing sequence variations"
@@ -876,6 +1049,18 @@
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "genomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Chromosome 22",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -933,6 +1118,18 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
+			"keywords": [
+				{
+					"value" : "genomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Chromosome 3",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr3.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz",
 				"description": "Gzipped .vcf file containing sequence variations"
@@ -986,6 +1183,18 @@
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "genomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Chromosome 4",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -1043,6 +1252,18 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
+			"keywords": [
+				{
+					"value" : "genomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Chromosome 5",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr5.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz",
 				"description": "Gzipped .vcf file containing sequence variations"
@@ -1096,6 +1317,18 @@
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "genomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Chromosome 6",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -1153,6 +1386,18 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
+			"keywords": [
+				{
+					"value" : "genomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Chromosome 7",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr7.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz",
 				"description": "Gzipped .vcf file containing sequence variations"
@@ -1206,6 +1451,18 @@
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "genomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Chromosome 8",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -1263,6 +1520,18 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
+			"keywords": [
+				{
+					"value" : "genomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Chromosome 9",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr9.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz",
 				"description": "Gzipped .vcf file containing sequence variations"
@@ -1316,6 +1585,18 @@
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-10-02 00:00:00"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "genomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Mitochondrial genome",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -1373,6 +1654,18 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
+			"keywords": [
+				{
+					"value" : "genomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Chromosome X",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
 			"storedIn": {
 				"name": "ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chrX.phase3_shapeit2_mvncall_integrated_v1b.20130502.genotypes.vcf.gz",
 				"description": "Gzipped .vcf file containing sequence variations"
@@ -1426,6 +1719,18 @@
 						"value":"source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "genomics"
+				}
+			],
+			"version": "1.0",
+			"description": "Chromosome Y",
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
 				}
 			],
 			"storedIn": {
