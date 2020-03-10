@@ -1,0 +1,73 @@
+This document describes the known issues with this call set which
+the consortium are working on fixing.
+
+If an issue has a Fixed tag, this gives the date and the version which
+has been fixed, any future files should also contain the fix.
+
+The version associated with last update was the first version the
+issue was discovered.
+
+Please be aware that the consortium is still reviewing this data and a
+number of known issues have been identified. The callset should therefore not be
+considered final and is subject to change in the near future.
+
+Related individuals have been included in the candidate release callset.
+These individuals will be removed to a separate VCF prior to formal release.
+Last update: 20140626 v1
+Fixed : 20140804 v3
+
+A number of bi-allelic large deletions have been left out of this dataset
+and will be added back in.
+Last update: 20140626 v1
+Fixed: 20140708, v2
+
+The candidate release has filtered common variants in a overly harsh manner.
+As such, a number of variants appear to be lost in comparison to Phase 1.
+The majority of these variants will be added back to the callset in
+the near future.
+Last update: 20140626 v1
+Fixed: 20140804 v3
+
+Structural variants need to be consolidated across variant types.
+Last update: 20140626 v1
+Fixed 20140804 v3
+
+This release has been annotated by functional consequence.
+Last update: 20140626 v1
+Fixed 20140910 v5 found in ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/supporting/functional_annotation/
+
+This release has not yet been annotated with ancestral alleles.
+Last update: 20140626 v1
+Fixed 20140910 v5 found in ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/supporting/functional_annotation/
+
+The release candidate does not include chromosomes X or Y.
+Last update: 20141018 v5, Chromosome X had been added, we hope to add chrY soon
+
+Super population Allele Frequences and Total Depth have been added to the info column
+Last update 20140626 v1
+Fixed 20140910 v5 these are described in ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/release/20130502/README_vcf_info_annotation.20140910
+
+Release v3 is still missing biallelic snvs from chr12:7000000-10000000
+Last update 20140804 v3
+Fixed update 20140821 v4
+
+Release v4 does not have the genotypes for the 31 related invididuals
+Last update 20140820 v4
+Fixed update 20140910 v5 These are now found in ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/release/20130502/
+
+The release files upto v4 contain 4213 sites for which some individuals whose genotypes had missing values. 
+Last update 20140820 v4
+Fixed 20140910 v5 These rows wer filtered out
+
+chrX data were added to the release directory without the standard annotation (sub-continental super population allele frequency, depth and ancestral alleles);
+functional annotation is not ready either for chrX.
+Last update 20141017 v5
+Fixed 20141030 annotations for chrX are added to the VCF file
+
+The super-population level allele frequency is over-estimated for chrX and chrY 
+Last update 20141017 v5
+Fixed 20150813 chrX and chrY genotype VCF files v1b version, the whole genome site VCF file v5b version now have correct super-population AF
+
+Sample NA19159 is missing from the MT VCF.
+Last update 20150715
+

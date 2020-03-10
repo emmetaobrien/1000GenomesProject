@@ -1,0 +1,53 @@
+Variants on chrY include biallelic SNPs, indels, and MNPs, as well as CNVs.
+
+The biallelic SNPs, indels and MNPs were only called in the unique Y chromosome region (bed file path below), while the SVs were called throughout the male-specific regions except the heterochromatic parts.
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/supporting/chrY/chrY_callable_regions.20130802.bed
+
+******************
+SNPs, indels and MNPs were called and genotyped using a separate process from autosomes. Putative variable sites were identified via six independent genotype calling methods. These were integrated with freeBayes in haploid mode, and the following site-level filters were imposed:
+-       Biallelic
+-       QUAL > 1
+-       Filtered depth: 2000–6000 (~6 mad interval)
+-       MQ0ratio (MQ0 / Unfiltered depth): ≤ 0.1
+-       Missingness: ≤ 400 (~1/3)
+-       Heterozygous Maximum Likelihood: ≤ 200 (count of GTs for which HET GL==0)
+
+Genotype calls were then replaced by the maximimum likelihood state, subject to the condition that the GL values differed by two log units. When the the absolute difference in GL values was ≤ 2 log units, a null genotype was called. Phylogenetic imputation was then conducted as described below.  During the same process, ancestral alleles were assigned to each variant site.
+
+To impute missing genotypes and infer ancestral alleles, the phylogeny of the entire sample was partitioned into eight subtrees. Sites that were variable within a given subtree were each assigned to the internal branch constituting the minimum superset of carriers of one allele or the other. Call this branch b, and call the subtree it defines t. The allele that was observed only within t was designated derived and the other allele ancestral. When the dichotomy was clean (i.e., no ancestral alleles were observed within t), the site was “compatible” with the subtree and missing genotypes were imputed accordingly. Otherwise, the site was deemed “incompatible” and missing genotypes were not imputed for this subtree. Since this procedure was conducted independently for each of the eight high-level subtrees, alleles that are ancestral in one tree may be derived in another. The globally ancestral allele was determined based on the outermost subtree in which a site was observed. Please note that no ancestral allele was designated for sites on the two branches separating hgA0 from the rest of the tree, as no outgroup was available for this most ancient split.
+
+For indels and MNPs, we further filtered out the sites overlap with Simple Repeat, SINE and LINE regions from the UCSC browser.
+
+******************
+CNV calling on chrY was done using Genome STRiP version 1.04.1447. For questions, contact Bob Handsaker (handsake at broad instititue dot org).
+
+Calling was done in 1233 male samples (excluding males with a normalized estimated dosage of chrY less than 0.8 or greater than 1.2 copies).
+
+The Genome STRiP CNV pipeline was run twice, once with an initial window size of 5Kb (overlapping by 2.5Kb) and once with an initial window size of 10Kb (overlapping by 5Kb).
+The following filters were applied to select candidate calls separately in each run:
+minCallrate=0.8
+minDensity=0.3
+minClusterSep=5
+In addition, in the 5Kb run, sites were not included if they were called only in samples with excessive variants per sample (> 45 variants).
+Sites were retained if they were > 20Kb in length or if they contained array probes and the IRS p-value was < 0.01 (using the AFFY array data).
+The Affy array was used because it contains many more probes on chrY than the Omni 2.5 array.
+Estimated IRS FDR of the chrY calls > 20Kb was zero in both runs.
+
+The calls from the two runs (5Kb and 10Kb windows) were merged, re-genotyped and duplicates removed using standard Genome STRiP duplicate removal filters.
+In addition, due to the higher read-depth heterogeneity and difficult repeat structure on Y, all calls were manually reviewed and 27 sites were filtered as likely duplicates or as having weak evidence of copy number variation.
+The final site list contains 97 sites.
+
+In addition, the Genome STRiP CNV pipeline for segmental duplications was used to call CNVs in regions annotated as segmental duplications on the human reference.  In this pipeline, the annotated segmental duplicatinos from the UCSC browser are used to identify segmentally duplicated
+regions where the reference copy number is 2. Each segmentally duplicated region (with both segments on Y) was genotyped for total copy number.
+Calls were filtered using the following filters:
+minCallrate=0.8
+minDensity=0.25
+minClusterSep=5
+
+The segmental duplication site list contains 13 sites.
+The segmental duplication calls all have identifiers starting with GS_SD_M2. The POS/END attributes specify the location of the first of the two intervals, both intervals are encoded in the ID field of the site.  Note that for segmental duplication sites, the reference allele is implicitly <CN2> whereas it is implicitly <CN1> for other sites.
+
+The final call set consists of the union of the window-based CNV calls and the segmental duplication calls (110 sites).
+These final calls were genotyped in all male samples with chrY estimated dosage greater than 0.8 and less than 1.2 (1234 samples)
+using Genome STRiP with default parameters.
+
