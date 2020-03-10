@@ -1,0 +1,128 @@
+This README describes the 1000 Genomes Project phase3 release of variant calls. It also includes brief update
+history and summary stats at the end.
+
+The release directory contains the final variant call set with phased genotypes for chr1-22, chrX and chrY
+based on the phase3 analysis of the 1000 Genomes sequence data.
+
+This data set is based on 20130502 sequence freeze and alignments. The analysis was run using only 
+Illumina platform sequence and only considered sequence with read lengths of 70bp or greater.
+The sequence index and alignment index files are listed below:
+
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/sequence_indices/20130502.analysis.sequence.index
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/alignment_indices/20130502.exome.alignment.index
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/alignment_indices/20130502.low_coverage.alignment.index
+
+The files themselves can be now found under
+
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/
+
+This variant set contains 2504 individuals from 26 populations. The list of all the samples in the data set and 
+their population, super population and gender can be found in the file:
+
+integrated_call_samples_v3.20130502.ALL.panel
+
+A separate sample panel file containing only male samples used for chrY is:
+ntegrated_call_male_samples_v3.20130502.ALL.panel
+
+The panel file was moved from v2 to v3 on the 9th September as the consortium moved from using ASN to EAS to
+refer to East Asian populations and from SAN to SAS to refer to South Asian populations
+
+A full record of all the sample relations is list in the ped file. Please note this also lists 
+other individuals who make up part of the Coriell catalog of cell lines.
+
+integrated_call_samples.20130502.ALL.ped
+
+We have removed the genotypes for 31 individuals who have blood relationship with the 2504 samples in the main release.
+This was done to ensure we do not over estimate allele frequency. The 31 related samples are listed in 20140625_related_individuals.txt.
+This has resulted in a small number of AC=0 sites from rare alleles only present in one or more of these 31 individuals.
+
+The genotypes of these 31 related individuals can be found at:
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/supporting/related_samples_vcf
+
+This variant set represents the work of a large number of people and groups. Full details of how it was 
+created will be published in the consortiums next paper. Here we give a brief summary of the process and list many of 
+the tools used.
+
+Many different callers were used to identify the variant sites in this set. A full set of input vcfs can be found at
+
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20140502/supporting/input_callsets
+
+A README is in the directory describing each input call set.
+
+SNPs, indels and complex short variants were filtered using the SVM method from UMich (part of the 
+GotCloud package) and the SV sites were filtered by the 1000 Genomes SV group.
+
+Biallelic snps, indels and large deletions were genotyped and phased using a combination of Beagle and Shapeit2, 
+using a pipeline developed in Oxford. MVNCall, also from Oxford was used to add complex short variants and large 
+structural variants to the scaffolds built by Shapeit2. The genotype likelihoods used by Shapeit2 and MVNCall 
+can be found at 
+
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20140502/supporting/genotype_likelihoods
+
+Variants on chrY were called and genotyped by a different process from the autosomes. Please see a separate README for the chrY callset:
+
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20140502/README_phase3_chrY_calls_20141104
+
+Structural variations are a well intergated part of the release VCF files.  From the SVTYPE tag in the INFO column, one can tell which type of SV a site is.  
+Below is a list of possible SVTYPEs in the plase3 release:
+
+ALU: Alu element insertion
+LINE1: Line1 transposable element insertion
+SVA: SVA element insertion, SVA stands for SINE-VNTR-Alu, it is a composite retrotransposon insertion
+INS: Nuclear mitochondrial insertion
+DEL: bi-allelic deletion
+DUP: bi-allelic duplication
+INV: bi-allelic inversion
+CNV: multi-allelic copy-number variant
+
+-----------------------------
+Notes about update from version v5 to v5a (Feb. 20th, 2015)
+
+Some additional annotations are added to the VCF files as listed below. No sites are changed.
+1. added rs numbers provided by dbSNP to the ID column for SNPs (lastest rs numbers are not available for chrX, Y and the 3M patched up chunk on chr12 yet) 
+2. added esv accessions provided by DGVA to the ID columns for SVs
+3. added variant type to the INFO column (VT=SNP, VT=SV, VT=MNP)
+4. added EX_TARGET and MULTI_ALLELIC flag to the INFO column
+5. striped off SVLEN for all types of SV except MEIs. This was suggested by the SV group as the current SVLEN calculation was not consistent and could be misleading. For MEIs, as there isn't INFO:END, SVLEN is kept to give the length of the insertions.
+6. changed all QUAL value to 100 on chrX and Y  
+7. changed all FILTER to "PASS" on chrX and Y
+
+Notes about updates occurred on the 4th of November, 2014:
+
+The chrX VCF file has been updated to include standard annotations comparable to autosomes.
+The chrY VCF file has been added.
+The site file has been changed from autosome site file to a wgs site file that includes autosomes, chrX and chrY.
+Please note the file naming pattern for chrX and Y are different from that of the autosomes.
+
+Notes about the v5 update from 9th September, 2014:
+
+4213 sites in which some individuals do not have proper genotype are removed from this v5 release.
+The old call set has been moved to ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/working/20140708_previous_phase3/v4_vcfs/
+
+We have a known issues README to cover any outstanding issues which are still present with the dataset:
+
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/README_known_issues_20141030
+
+-----------------------------
+Here are some basic statistics about the variant sites on the autosomes in this release calculated with bcftools:
+
+The total number of sites in the autosomes file is 81271745
+
+The breakdown of these sites is:
+
+number of SNPs:	78136341
+number of indels:	3135424
+number of others:	58671
+number of multiallelic sites:	416023
+number of multiallelic SNP sites:	259370
+
+The stats for chrX
+
+number of samples:	2504
+number of records:	3468087
+number of SNPs:	3246232
+number of MNPs:	0
+number of indels:	227112
+number of others:	2040
+number of multiallelic sites:	30994
+number of multiallelic SNP sites:	1505

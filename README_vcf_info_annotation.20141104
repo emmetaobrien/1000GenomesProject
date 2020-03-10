@@ -1,0 +1,51 @@
+The initially released phase3 VCF files contain variant sites, per sample genotypes and some basic information such 
+as known dbSNP rs number if there is one, AN, AC and global allele frequency (AF).  Additional supporting evidence 
+and annotations for variants were added in subsequent updates.  Here is a brief description of such annotations.
+
+Annotations added to the VCFs in the main release directory (ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502):
+
+1. Total depth in all samples 
+
+Read depth for each sample at each variant site was calculated from sample-level BAM files using multicov function in 
+BedTools (http://bedtools.readthedocs.org/en/latest/content/tools/multicov.html). The total depth for all samples in 
+the VCF file was reported in the INFO field for each site. 
+
+For complicated events such as deletion and insertion, the depth is calculated for the base immediate 5' to the event. 
+
+Paths of BAM files used in this calculation are summarised in 
+
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/alignment_indices/20130502.low_coverage.alignment.index
+
+Below is an example command line used for calculating read depth for one sample:
+
+BEDTools/bin/multiBamCov -bams HG00096.mapped.ILLUMINA.bwa.GBR.low_coverage.20120522.bam -bed ALL.autosomes.phase3_shapeit2_mvncall_integrated_v4.20130502.sites.vcf.gz 
+
+This value is represented in the INFO column using the DP info tag
+
+For chrY, the DP information for each site was calculated differently during the variant calling process.   
+
+2. Allele frequency by continental super population
+
+The 2504 samples in the phase3 release are from 26 populations which can be categorised into five super-populations 
+by continent (listed below).  As well as the global AF in the INFO field. We added AF for each super-population to the INFO field.
+
+East Asian	EAS
+South Asian	SAS
+African		AFR
+European	EUR
+American	AMR
+
+These allele frequences were calculated by counting the AC and AN for all the individuals from a particular super population and using that
+to calculate the AF. The info tag which represents the AFs are EAS_AF, EUR_AF, AFR_AF, AMR_AF and SAS_AF
+
+The super population assignment for each sample can be found in integrated_call_samples_v3.20130502.ALL.panel
+
+AF for multi-allelic variants are reported for each allele independently, separated by ",".
+
+3. Ancestral Allele (AA)
+
+Ancestral sequences are inferred from Ensembl multiple alignments using Ortheus. Ortheus is a probabilistic method for the inference of ancestor, a.k.a tree, alignments. 
+The main contribution of Ortheus is the use of a phylogenetic model incorporating gaps to infer insertion and deletion events. Ancestral sequences are predicted for each node
+of the phylogenetic tree that relates the sequences.
+
+The AA for chrY variant sites were derived with a separate process from that of the autosomes. Please see README_phase3_chrY_calls_20141104 for details.
