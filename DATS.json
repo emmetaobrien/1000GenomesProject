@@ -71,7 +71,7 @@
 				".VCF",
 				"FASTA"
             		],
-			"size" : 1,
+			"size" : 16.2,
 		        "unit" : {
             			"value": "GB"
 		        },
@@ -116,6 +116,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 1.19,
+			        "unit" : {
+            			"value": "GB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -185,6 +204,25 @@
 					"value" : "genomics"
 				}
 			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 755,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
+				}
+			],
 			"version": "1.0",
 			"description": "Chromosome 10",
 			"licenses": [
@@ -250,6 +288,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 749,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -319,6 +376,25 @@
 					"value" : "genomics"
 				}
 			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 723,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
+				}
+			],
 			"version": "1.0",
 			"description": "Chromosome 12",
 			"licenses": [
@@ -384,6 +460,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 543,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -453,6 +548,25 @@
 					"value" : "genomics"
 				}
 			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 494,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
+				}
+			],
 			"version": "1.0",
 			"description": "Chromosome 14",
 			"licenses": [
@@ -518,6 +632,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 447,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -587,6 +720,25 @@
 					"value" : "genomics"
 				}
 			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 483,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
+				}
+			],
 			"version": "1.0",
 			"description": "Chromosome 16",
 			"licenses": [
@@ -652,6 +804,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 424,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -721,6 +892,25 @@
 					"value" : "genomics"
 				}
 			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 426,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
+				}
+			],
 			"version": "1.0",
 			"description": "Chromosome 18",
 			"licenses": [
@@ -786,6 +976,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 351,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -855,6 +1064,25 @@
 					"value" : "genomics"
 				}
 			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 1.28,
+			        "unit" : {
+            			"value": "GB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
+				}
+			],
 			"version": "1.0",
 			"description": "Chromosome 2",
 			"licenses": [
@@ -920,6 +1148,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 334,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -989,6 +1236,25 @@
 					"value" : "genomics"
 				}
 			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 213,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
+				}
+			],
 			"version": "1.0",
 			"description": "Chromosome 21",
 			"licenses": [
@@ -1054,6 +1320,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 209,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -1123,6 +1408,25 @@
 					"value" : "genomics"
 				}
 			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 1.08,
+			        "unit" : {
+            			"value": "GB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
+				}
+			],
 			"version": "1.0",
 			"description": "Chromosome 3",
 			"licenses": [
@@ -1188,6 +1492,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 1.09,
+			        "unit" : {
+            			"value": "GB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -1257,6 +1580,25 @@
 					"value" : "genomics"
 				}
 			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 966,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
+				}
+			],
 			"version": "1.0",
 			"description": "Chromosome 5",
 			"licenses": [
@@ -1322,6 +1664,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 976,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -1391,6 +1752,25 @@
 					"value" : "genomics"
 				}
 			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 886,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
+				}
+			],
 			"version": "1.0",
 			"description": "Chromosome 7",
 			"licenses": [
@@ -1456,6 +1836,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 841,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -1525,6 +1924,25 @@
 					"value" : "genomics"
 				}
 			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 657,
+			        "unit" : {
+            			"value": "GB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
+				}
+			],
 			"version": "1.0",
 			"description": "Chromosome 9",
 			"licenses": [
@@ -1590,6 +2008,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 202,
+			        "unit" : {
+            			"value": "KB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -1659,6 +2096,25 @@
 					"value" : "genomics"
 				}
 			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 1.87,
+			        "unit" : {
+            			"value": "GB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
+				}
+			],
 			"version": "1.0",
 			"description": "Chromosome X",
 			"licenses": [
@@ -1724,6 +2180,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 5.73,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
