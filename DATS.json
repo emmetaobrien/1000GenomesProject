@@ -174,6 +174,30 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -258,6 +282,30 @@
 					"values": [
 						{
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
 						}
 					]
 				}
@@ -346,6 +394,30 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -430,6 +502,30 @@
 					"values": [
 						{
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
 						}
 					]
 				}
@@ -518,6 +614,30 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -602,6 +722,30 @@
 					"values": [
 						{
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
 						}
 					]
 				}
@@ -690,6 +834,30 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -774,6 +942,30 @@
 					"values": [
 						{
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
 						}
 					]
 				}
@@ -862,6 +1054,30 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -946,6 +1162,30 @@
 					"values": [
 						{
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
 						}
 					]
 				}
@@ -1034,6 +1274,30 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -1118,6 +1382,30 @@
 					"values": [
 						{
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
 						}
 					]
 				}
@@ -1206,6 +1494,30 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -1290,6 +1602,30 @@
 					"values": [
 						{
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
 						}
 					]
 				}
@@ -1378,6 +1714,30 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -1462,6 +1822,30 @@
 					"values": [
 						{
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
 						}
 					]
 				}
@@ -1550,6 +1934,30 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -1634,6 +2042,30 @@
 					"values": [
 						{
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
 						}
 					]
 				}
@@ -1722,6 +2154,30 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -1806,6 +2262,30 @@
 					"values": [
 						{
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
 						}
 					]
 				}
@@ -1894,6 +2374,30 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -1978,6 +2482,30 @@
 					"values": [
 						{
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
 						}
 					]
 				}
@@ -2066,6 +2594,30 @@
 							"value": ""
 						}
 					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -2152,6 +2704,30 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -2236,6 +2812,30 @@
 					"values": [
 						{
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
 						}
 					]
 				}
