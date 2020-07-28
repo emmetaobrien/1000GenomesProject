@@ -66,15 +66,15 @@
 		}
 	],
 	"distributions": [
-	        {
+		{
 			"formats": [
 				".VCF",
 				"FASTA"
-            		],
+            ],
 			"size" : 16.2,
-		        "unit" : {
-            			"value": "GB"
-		        },
+			"unit" : {
+            	"value": "GB"
+			},
 			"access": {
 				"landingPage": "https://www.internationalgenome.org/",
 				"authorizations": [
@@ -172,6 +172,14 @@
 					"values": [
 						{
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"consortium": "1000 Genomes Project"
 						}
 					]
 				},
@@ -286,6 +294,14 @@
 					]
 				},
 				{
+					"category": "origin",
+					"values": [
+						{
+							"consortium": "1000 Genomes Project"
+						}
+					]
+				},
+				{
 					"category": "CONP_status",
 					"values": [
 						{
@@ -392,6 +408,14 @@
 					"values": [
 						{
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"consortium": "1000 Genomes Project"
 						}
 					]
 				},
@@ -506,6 +530,14 @@
 					]
 				},
 				{
+					"category": "origin",
+					"values": [
+						{
+							"consortium": "1000 Genomes Project"
+						}
+					]
+				},
+				{
 					"category": "CONP_status",
 					"values": [
 						{
@@ -612,6 +644,14 @@
 					"values": [
 						{
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"consortium": "1000 Genomes Project"
 						}
 					]
 				},
@@ -726,6 +766,14 @@
 					]
 				},
 				{
+					"category": "origin",
+					"values": [
+						{
+							"consortium": "1000 Genomes Project"
+						}
+					]
+				},
+				{
 					"category": "CONP_status",
 					"values": [
 						{
@@ -832,6 +880,14 @@
 					"values": [
 						{
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"consortium": "1000 Genomes Project"
 						}
 					]
 				},
@@ -946,6 +1002,14 @@
 					]
 				},
 				{
+					"category": "origin",
+					"values": [
+						{
+							"consortium": "1000 Genomes Project"
+						}
+					]
+				},
+				{
 					"category": "CONP_status",
 					"values": [
 						{
@@ -1052,6 +1116,14 @@
 					"values": [
 						{
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"consortium": "1000 Genomes Project"
 						}
 					]
 				},
@@ -1166,6 +1238,14 @@
 					]
 				},
 				{
+					"category": "origin",
+					"values": [
+						{
+							"consortium": "1000 Genomes Project"
+						}
+					]
+				},
+				{
 					"category": "CONP_status",
 					"values": [
 						{
@@ -1272,6 +1352,14 @@
 					"values": [
 						{
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"consortium": "1000 Genomes Project"
 						}
 					]
 				},
@@ -1386,6 +1474,14 @@
 					]
 				},
 				{
+					"category": "origin",
+					"values": [
+						{
+							"consortium": "1000 Genomes Project"
+						}
+					]
+				},
+				{
 					"category": "CONP_status",
 					"values": [
 						{
@@ -1492,6 +1588,14 @@
 					"values": [
 						{
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"consortium": "1000 Genomes Project"
 						}
 					]
 				},
@@ -1606,6 +1710,14 @@
 					]
 				},
 				{
+					"category": "origin",
+					"values": [
+						{
+							"consortium": "1000 Genomes Project"
+						}
+					]
+				},
+				{
 					"category": "CONP_status",
 					"values": [
 						{
@@ -1712,6 +1824,14 @@
 					"values": [
 						{
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"consortium": "1000 Genomes Project"
 						}
 					]
 				},
@@ -1826,6 +1946,14 @@
 					]
 				},
 				{
+					"category": "origin",
+					"values": [
+						{
+							"consortium": "1000 Genomes Project"
+						}
+					]
+				},
+				{
 					"category": "CONP_status",
 					"values": [
 						{
@@ -1932,6 +2060,14 @@
 					"values": [
 						{
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"consortium": "1000 Genomes Project"
 						}
 					]
 				},
@@ -2046,6 +2182,14 @@
 					]
 				},
 				{
+					"category": "origin",
+					"values": [
+						{
+							"consortium": "1000 Genomes Project"
+						}
+					]
+				},
+				{
 					"category": "CONP_status",
 					"values": [
 						{
@@ -2152,6 +2296,14 @@
 					"values": [
 						{
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"consortium": "1000 Genomes Project"
 						}
 					]
 				},
@@ -2266,6 +2418,14 @@
 					]
 				},
 				{
+					"category": "origin",
+					"values": [
+						{
+							"consortium": "1000 Genomes Project"
+						}
+					]
+				},
+				{
 					"category": "CONP_status",
 					"values": [
 						{
@@ -2372,6 +2532,14 @@
 					"values": [
 						{
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"consortium": "1000 Genomes Project"
 						}
 					]
 				},
@@ -2486,6 +2654,14 @@
 					]
 				},
 				{
+					"category": "origin",
+					"values": [
+						{
+							"consortium": "1000 Genomes Project"
+						}
+					]
+				},
+				{
 					"category": "CONP_status",
 					"values": [
 						{
@@ -2592,6 +2768,14 @@
 					"values": [
 						{
 							"value": ""
+						}
+					]
+				},
+				{
+					"category": "origin",
+					"values": [
+						{
+							"consortium": "1000 Genomes Project"
 						}
 					]
 				},
@@ -2706,6 +2890,14 @@
 					]
 				},
 				{
+					"category": "origin",
+					"values": [
+						{
+							"consortium": "1000 Genomes Project"
+						}
+					]
+				},
+				{
 					"category": "CONP_status",
 					"values": [
 						{
@@ -2816,6 +3008,14 @@
 					]
 				},
 				{
+					"category": "origin",
+					"values": [
+						{
+							"consortium": "1000 Genomes Project"
+						}
+					]
+				},
+				{
 					"category": "CONP_status",
 					"values": [
 						{
@@ -2872,6 +3072,14 @@
 			"values": [
 				{
 					"value": "2504"
+				}
+			]
+		},
+		{
+			"category": "origin",
+			"values": [
+				{
+					"consortium": "1000 Genomes Project"
 				}
 			]
 		},
