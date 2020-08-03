@@ -176,10 +176,10 @@
 					]
 				},
 				{
-					"category": "origin",
+					"category": "origin_consortium",
 					"values": [
 						{
-							"consortium": "1000 Genomes Project"
+							"value": "1000 Genomes Project"
 						}
 					]
 				},
@@ -294,10 +294,10 @@
 					]
 				},
 				{
-					"category": "origin",
+					"category": "origin_consortium",
 					"values": [
 						{
-							"consortium": "1000 Genomes Project"
+							"value": "1000 Genomes Project"
 						}
 					]
 				},
@@ -412,10 +412,10 @@
 					]
 				},
 				{
-					"category": "origin",
+					"category": "origin_consortium",
 					"values": [
 						{
-							"consortium": "1000 Genomes Project"
+							"value": "1000 Genomes Project"
 						}
 					]
 				},
@@ -530,10 +530,10 @@
 					]
 				},
 				{
-					"category": "origin",
+					"category": "origin_consortium",
 					"values": [
 						{
-							"consortium": "1000 Genomes Project"
+							"value": "1000 Genomes Project"
 						}
 					]
 				},
@@ -648,10 +648,10 @@
 					]
 				},
 				{
-					"category": "origin",
+					"category": "origin_consortium",
 					"values": [
 						{
-							"consortium": "1000 Genomes Project"
+							"value": "1000 Genomes Project"
 						}
 					]
 				},
@@ -766,10 +766,10 @@
 					]
 				},
 				{
-					"category": "origin",
+					"category": "origin_consortium",
 					"values": [
 						{
-							"consortium": "1000 Genomes Project"
+							"value": "1000 Genomes Project"
 						}
 					]
 				},
@@ -884,10 +884,10 @@
 					]
 				},
 				{
-					"category": "origin",
+					"category": "origin_consortium",
 					"values": [
 						{
-							"consortium": "1000 Genomes Project"
+							"value": "1000 Genomes Project"
 						}
 					]
 				},
@@ -1002,10 +1002,10 @@
 					]
 				},
 				{
-					"category": "origin",
+					"category": "origin_consortium",
 					"values": [
 						{
-							"consortium": "1000 Genomes Project"
+							"value": "1000 Genomes Project"
 						}
 					]
 				},
@@ -1120,10 +1120,10 @@
 					]
 				},
 				{
-					"category": "origin",
+					"category": "origin_consortium",
 					"values": [
 						{
-							"consortium": "1000 Genomes Project"
+							"value": "1000 Genomes Project"
 						}
 					]
 				},
@@ -1238,10 +1238,10 @@
 					]
 				},
 				{
-					"category": "origin",
+					"category": "origin_consortium",
 					"values": [
 						{
-							"consortium": "1000 Genomes Project"
+							"value": "1000 Genomes Project"
 						}
 					]
 				},
@@ -1356,10 +1356,10 @@
 					]
 				},
 				{
-					"category": "origin",
+					"category": "origin_consortium",
 					"values": [
 						{
-							"consortium": "1000 Genomes Project"
+							"value": "1000 Genomes Project"
 						}
 					]
 				},
@@ -1474,10 +1474,10 @@
 					]
 				},
 				{
-					"category": "origin",
+					"category": "origin_consortium",
 					"values": [
 						{
-							"consortium": "1000 Genomes Project"
+							"value": "1000 Genomes Project"
 						}
 					]
 				},
@@ -1592,10 +1592,10 @@
 					]
 				},
 				{
-					"category": "origin",
+					"category": "origin_consortium",
 					"values": [
 						{
-							"consortium": "1000 Genomes Project"
+							"value": "1000 Genomes Project"
 						}
 					]
 				},
@@ -1710,10 +1710,10 @@
 					]
 				},
 				{
-					"category": "origin",
+					"category": "origin_consortium",
 					"values": [
 						{
-							"consortium": "1000 Genomes Project"
+							"value": "1000 Genomes Project"
 						}
 					]
 				},
@@ -1828,10 +1828,10 @@
 					]
 				},
 				{
-					"category": "origin",
+					"category": "origin_consortium",
 					"values": [
 						{
-							"consortium": "1000 Genomes Project"
+							"value": "1000 Genomes Project"
 						}
 					]
 				},
@@ -1946,10 +1946,10 @@
 					]
 				},
 				{
-					"category": "origin",
+					"category": "origin_consortium",
 					"values": [
 						{
-							"consortium": "1000 Genomes Project"
+							"value": "1000 Genomes Project"
 						}
 					]
 				},
@@ -2064,10 +2064,10 @@
 					]
 				},
 				{
-					"category": "origin",
+					"category": "origin_consortium",
 					"values": [
 						{
-							"consortium": "1000 Genomes Project"
+							"value": "1000 Genomes Project"
 						}
 					]
 				},
@@ -2182,10 +2182,10 @@
 					]
 				},
 				{
-					"category": "origin",
+					"category": "origin_consortium",
 					"values": [
 						{
-							"consortium": "1000 Genomes Project"
+							"value": "1000 Genomes Project"
 						}
 					]
 				},
@@ -2300,10 +2300,10 @@
 					]
 				},
 				{
-					"category": "origin",
+					"category": "origin_consortium",
 					"values": [
 						{
-							"consortium": "1000 Genomes Project"
+							"value": "1000 Genomes Project"
 						}
 					]
 				},
@@ -2418,10 +2418,10 @@
 					]
 				},
 				{
-					"category": "origin",
+					"category": "origin_consortium",
 					"values": [
 						{
-							"consortium": "1000 Genomes Project"
+							"value": "1000 Genomes Project"
 						}
 					]
 				},
@@ -2536,10 +2536,10 @@
 					]
 				},
 				{
-					"category": "origin",
+					"category": "origin_consortium",
 					"values": [
 						{
-							"consortium": "1000 Genomes Project"
+							"value": "1000 Genomes Project"
 						}
 					]
 				},
@@ -2654,10 +2654,10 @@
 					]
 				},
 				{
-					"category": "origin",
+					"category": "origin_consortium",
 					"values": [
 						{
-							"consortium": "1000 Genomes Project"
+							"value": "1000 Genomes Project"
 						}
 					]
 				},
@@ -2772,10 +2772,10 @@
 					]
 				},
 				{
-					"category": "origin",
+					"category": "origin_consortium",
 					"values": [
 						{
-							"consortium": "1000 Genomes Project"
+							"value": "1000 Genomes Project"
 						}
 					]
 				},
@@ -2890,10 +2890,10 @@
 					]
 				},
 				{
-					"category": "origin",
+					"category": "origin_consortium",
 					"values": [
 						{
-							"consortium": "1000 Genomes Project"
+							"origin": "1000 Genomes Project"
 						}
 					]
 				},
@@ -3008,10 +3008,10 @@
 					]
 				},
 				{
-					"category": "origin",
+					"category": "origin_consortium",
 					"values": [
 						{
-							"consortium": "1000 Genomes Project"
+							"origin": "1000 Genomes Project"
 						}
 					]
 				},
@@ -3076,10 +3076,10 @@
 			]
 		},
 		{
-			"category": "origin",
+			"category": "origin_consortium",
 			"values": [
 				{
-					"consortium": "1000 Genomes Project"
+					"value": "1000 Genomes Project"
 				}
 			]
 		},
