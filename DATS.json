@@ -2893,7 +2893,7 @@
 					"category": "origin_consortium",
 					"values": [
 						{
-							"origin": "1000 Genomes Project"
+							"value": "1000 Genomes Project"
 						}
 					]
 				},
@@ -3011,7 +3011,7 @@
 					"category": "origin_consortium",
 					"values": [
 						{
-							"origin": "1000 Genomes Project"
+							"value": "1000 Genomes Project"
 						}
 					]
 				},
