@@ -66,15 +66,15 @@
 		}
 	],
 	"distributions": [
-	        {
+		{
 			"formats": [
 				".VCF",
 				"FASTA"
-            		],
-			"size" : 1,
-		        "unit" : {
-            			"value": "GB"
-		        },
+            ],
+			"size" : 16.2,
+			"unit" : {
+            	"value": "GB"
+			},
 			"access": {
 				"landingPage": "https://www.internationalgenome.org/",
 				"authorizations": [
@@ -118,6 +118,25 @@
 					"value" : "genomics"
 				}
 			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 1.19,
+			        "unit" : {
+            			"value": "GB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
+				}
+			],
 			"version": "1.0",
 			"description": "Chromosome 1",
 			"licenses": [
@@ -155,6 +174,38 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "origin_consortium",
+					"values": [
+						{
+							"value": "1000 Genomes Project"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -183,6 +234,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 755,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -222,6 +292,38 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "origin_consortium",
+					"values": [
+						{
+							"value": "1000 Genomes Project"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -250,6 +352,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 749,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -289,6 +410,38 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "origin_consortium",
+					"values": [
+						{
+							"value": "1000 Genomes Project"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -317,6 +470,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 723,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -356,6 +528,38 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "origin_consortium",
+					"values": [
+						{
+							"value": "1000 Genomes Project"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -384,6 +588,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 543,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -423,6 +646,38 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "origin_consortium",
+					"values": [
+						{
+							"value": "1000 Genomes Project"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -451,6 +706,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 494,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -490,6 +764,38 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "origin_consortium",
+					"values": [
+						{
+							"value": "1000 Genomes Project"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -518,6 +824,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 447,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -557,6 +882,38 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "origin_consortium",
+					"values": [
+						{
+							"value": "1000 Genomes Project"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -585,6 +942,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 483,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -624,6 +1000,38 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "origin_consortium",
+					"values": [
+						{
+							"value": "1000 Genomes Project"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -652,6 +1060,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 424,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -691,6 +1118,38 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "origin_consortium",
+					"values": [
+						{
+							"value": "1000 Genomes Project"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -719,6 +1178,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 426,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -758,6 +1236,38 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "origin_consortium",
+					"values": [
+						{
+							"value": "1000 Genomes Project"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -786,6 +1296,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 351,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -825,6 +1354,38 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "origin_consortium",
+					"values": [
+						{
+							"value": "1000 Genomes Project"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -853,6 +1414,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 1.28,
+			        "unit" : {
+            			"value": "GB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -892,6 +1472,38 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "origin_consortium",
+					"values": [
+						{
+							"value": "1000 Genomes Project"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -920,6 +1532,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 334,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -959,6 +1590,38 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "origin_consortium",
+					"values": [
+						{
+							"value": "1000 Genomes Project"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -987,6 +1650,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 213,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -1026,6 +1708,38 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "origin_consortium",
+					"values": [
+						{
+							"value": "1000 Genomes Project"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -1054,6 +1768,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 209,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -1093,6 +1826,38 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "origin_consortium",
+					"values": [
+						{
+							"value": "1000 Genomes Project"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -1121,6 +1886,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 1.08,
+			        "unit" : {
+            			"value": "GB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -1160,6 +1944,38 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "origin_consortium",
+					"values": [
+						{
+							"value": "1000 Genomes Project"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -1188,6 +2004,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 1.09,
+			        "unit" : {
+            			"value": "GB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -1227,6 +2062,38 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "origin_consortium",
+					"values": [
+						{
+							"value": "1000 Genomes Project"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -1255,6 +2122,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 966,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -1294,6 +2180,38 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "origin_consortium",
+					"values": [
+						{
+							"value": "1000 Genomes Project"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -1322,6 +2240,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 976,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -1361,6 +2298,38 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "origin_consortium",
+					"values": [
+						{
+							"value": "1000 Genomes Project"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -1389,6 +2358,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 886,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -1428,6 +2416,38 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "origin_consortium",
+					"values": [
+						{
+							"value": "1000 Genomes Project"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -1456,6 +2476,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 841,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -1495,6 +2534,38 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "origin_consortium",
+					"values": [
+						{
+							"value": "1000 Genomes Project"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -1523,6 +2594,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 657,
+			        "unit" : {
+            			"value": "GB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -1562,6 +2652,38 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "origin_consortium",
+					"values": [
+						{
+							"value": "1000 Genomes Project"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -1590,6 +2712,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 202,
+			        "unit" : {
+            			"value": "KB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -1629,6 +2770,38 @@
 							"value": ""
 						}
 					]
+				},
+				{
+					"category": "origin_consortium",
+					"values": [
+						{
+							"value": "1000 Genomes Project"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -1657,6 +2830,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 1.87,
+			        "unit" : {
+            			"value": "GB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -1696,6 +2888,38 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "origin_consortium",
+					"values": [
+						{
+							"value": "1000 Genomes Project"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		},
@@ -1724,6 +2948,25 @@
 			"keywords": [
 				{
 					"value" : "genomics"
+				}
+			],
+		  	"distributions": [
+	    	    {
+					"formats": [
+						".VCF"
+        	   		],
+					"size" : 5.73,
+			        "unit" : {
+            			"value": "MB"
+		    	    },
+					"access": {
+						"landingPage": "https://www.internationalgenome.org/",
+						"authorizations": [
+							{
+								"value": "public"
+							}
+						]
+					}
 				}
 			],
 			"version": "1.0",
@@ -1763,6 +3006,38 @@
 							"value": "ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz"
 						}
 					]
+				},
+				{
+					"category": "origin_consortium",
+					"values": [
+						{
+							"value": "1000 Genomes Project"
+						}
+					]
+				},
+				{
+					"category": "CONP_status",
+					"values": [
+						{
+							"value": "external"
+						}
+					]
+				},
+				{
+					"category": "files",
+					"values": [
+						{
+							"value": "1"
+						}
+					]
+				},
+				{
+					"category": "subjects",
+					"values": [
+						{
+							"value": "2504"
+						}
+					]
 				}
 			]
 		}
@@ -1797,6 +3072,14 @@
 			"values": [
 				{
 					"value": "2504"
+				}
+			]
+		},
+		{
+			"category": "origin_consortium",
+			"values": [
+				{
+					"value": "1000 Genomes Project"
 				}
 			]
 		},
