@@ -89,11 +89,6 @@
 			}
 		}
 	],
-	"keywords": [
-		{
-			"value" : "genomics"
-		}
-	],
 	"hasPart": [
 		{
 			"title":"Chromosome 1",
@@ -122,11 +117,6 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
@@ -150,7 +140,7 @@
 			"description": "Chromosome 1",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -244,11 +234,6 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
@@ -272,7 +257,7 @@
 			"description": "Chromosome 10",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -366,11 +351,6 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
@@ -394,7 +374,7 @@
 			"description": "Chromosome 11",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -488,11 +468,6 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
@@ -516,7 +491,7 @@
 			"description": "Chromosome 12",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -610,11 +585,6 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
@@ -638,7 +608,7 @@
 			"description": "Chromosome 13",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -732,11 +702,6 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
@@ -760,7 +725,7 @@
 			"description": "Chromosome 14",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -854,11 +819,6 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
@@ -882,7 +842,7 @@
 			"description": "Chromosome 15",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -976,11 +936,6 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
@@ -1004,7 +959,7 @@
 			"description": "Chromosome 16",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -1098,11 +1053,6 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
@@ -1126,7 +1076,7 @@
 			"description": "Chromosome 17",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -1220,11 +1170,6 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
@@ -1248,7 +1193,7 @@
 			"description": "Chromosome 18",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -1342,11 +1287,6 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
@@ -1370,7 +1310,7 @@
 			"description": "Chromosome 19",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -1464,11 +1404,6 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
@@ -1492,7 +1427,7 @@
 			"description": "Chromosome 2",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -1586,11 +1521,6 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
@@ -1614,7 +1544,7 @@
 			"description": "Chromosome 20",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -1708,11 +1638,6 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
@@ -1736,7 +1661,7 @@
 			"description": "Chromosome 21",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -1830,11 +1755,6 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
@@ -1858,7 +1778,7 @@
 			"description": "Chromosome 22",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -1952,11 +1872,6 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
@@ -1980,7 +1895,7 @@
 			"description": "Chromosome 3",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -2074,11 +1989,6 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
@@ -2102,7 +2012,7 @@
 			"description": "Chromosome 4",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -2196,11 +2106,6 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
@@ -2224,7 +2129,7 @@
 			"description": "Chromosome 5",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -2318,11 +2223,6 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
@@ -2346,7 +2246,7 @@
 			"description": "Chromosome 6",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -2440,11 +2340,6 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
@@ -2468,7 +2363,7 @@
 			"description": "Chromosome 7",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -2562,11 +2457,6 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
@@ -2590,7 +2480,7 @@
 			"description": "Chromosome 8",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -2684,11 +2574,6 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
@@ -2712,7 +2597,7 @@
 			"description": "Chromosome 9",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -2806,11 +2691,6 @@
 					"date": "2015-10-02 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
@@ -2834,7 +2714,7 @@
 			"description": "Mitochondrial genome",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -2928,11 +2808,6 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
@@ -2956,7 +2831,7 @@
 			"description": "Chromosome X",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -3050,11 +2925,6 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
@@ -3078,7 +2948,7 @@
 			"description": "Chromosome Y",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
