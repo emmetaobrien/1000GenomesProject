@@ -4,10 +4,10 @@
 		"identifierSource": "DOI"
 	},
 	"version": "1.0",
-	"privacy": "public open",
+	"privacy": "open",
 	"licenses": [
 		{
-			"name": "BY-NC-SA"
+            "name": "CC BY-NC-SA"
 		}
 	],
 	"creators": [
@@ -17,9 +17,16 @@
 	],
 	"types": [
 		{
-			"information": {
-				"value": "genomics"
-			}
+            "identifier": {
+                "identifier": "ilx_0741204",
+                "identifierSource":"http://uri.interlex.org/ilx_0741204"
+            },
+			"value": "genomics"
+		}
+	],
+	"keywords": [
+		{
+			"value" : "1000 Genomes Project"
 		}
 	],
 	"title": "1000 Genomes Project",
@@ -36,7 +43,7 @@
 			"dates": [
 				{
 					"type": {
-						"value":"Primary reference publication date"
+						"value":"publication date"
 					},
 					"date": "2015-10-01 00:00:00"
 				}
@@ -68,7 +75,7 @@
 	"distributions": [
 		{
 			"formats": [
-				".VCF",
+				"VCF",
 				"FASTA"
             ],
 			"size" : 16.2,
@@ -85,11 +92,6 @@
 			}
 		}
 	],
-	"keywords": [
-		{
-			"value" : "genomics"
-		}
-	],
 	"hasPart": [
 		{
 			"title":"Chromosome 1",
@@ -100,9 +102,14 @@
 			],
 			"types": [
 				{
-					"information": {
-						"value": "genomics"
-					}
+        	        "identifier": "ilx_0741204",
+                    "identifierSource":"http://uri.interlex.org/ilx_0741204",
+		            "value": "genomics"
+                }
+			],
+			"keywords": [
+				{
+					"value" : "1000 Genomes Project"
 				}
 			],
 			"dates": [
@@ -113,15 +120,10 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
-						".VCF"
+						"VCF"
         	   		],
 					"size" : 1.19,
 			        "unit" : {
@@ -141,7 +143,7 @@
 			"description": "Chromosome 1",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -218,9 +220,14 @@
 			],
 			"types": [
 				{
-					"information": {
-						"value": "genomics"
-					}
+        		    "identifier": "ilx_0741204",
+                	"identifierSource":"http://uri.interlex.org/ilx_0741204",
+                    "value": "genomics"
+                }
+			],
+			"keywords": [
+				{
+					"value" : "1000 Genomes Project"
 				}
 			],
 			"dates": [
@@ -231,15 +238,10 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
-						".VCF"
+						"VCF"
         	   		],
 					"size" : 755,
 			        "unit" : {
@@ -259,7 +261,7 @@
 			"description": "Chromosome 10",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -336,9 +338,14 @@
 			],
 			"types": [
 				{
-					"information": {
-						"value": "genomics"
-					}
+        		    "identifier": "ilx_0741204",
+                    "identifierSource":"http://uri.interlex.org/ilx_0741204",
+				    "value": "genomics"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "1000 Genomes Project"
 				}
 			],
 			"dates": [
@@ -349,15 +356,10 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
-						".VCF"
+						"VCF"
         	   		],
 					"size" : 749,
 			        "unit" : {
@@ -377,7 +379,7 @@
 			"description": "Chromosome 11",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -454,9 +456,14 @@
 			],
 			"types": [
 				{
-					"information": {
-						"value": "genomics"
-					}
+        		    "identifier": "ilx_0741204",
+                    "identifierSource":"http://uri.interlex.org/ilx_0741204",
+				    "value": "genomics"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "1000 Genomes Project"
 				}
 			],
 			"dates": [
@@ -467,15 +474,10 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
-						".VCF"
+						"VCF"
         	   		],
 					"size" : 723,
 			        "unit" : {
@@ -495,7 +497,7 @@
 			"description": "Chromosome 12",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -572,9 +574,14 @@
 			],
 			"types": [
 				{
-					"information": {
-						"value": "genomics"
-					}
+        		    "identifier": "ilx_0741204",
+                    "identifierSource":"http://uri.interlex.org/ilx_0741204",
+					"value": "genomics"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "1000 Genomes Project"
 				}
 			],
 			"dates": [
@@ -585,15 +592,10 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
-						".VCF"
+						"VCF"
         	   		],
 					"size" : 543,
 			        "unit" : {
@@ -613,7 +615,7 @@
 			"description": "Chromosome 13",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -690,9 +692,14 @@
 			],
 			"types": [
 				{
-					"information": {
-						"value": "genomics"
-					}
+        		    "identifier": "ilx_0741204",
+                    "identifierSource":"http://uri.interlex.org/ilx_0741204",
+					"value": "genomics"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "1000 Genomes Project"
 				}
 			],
 			"dates": [
@@ -703,15 +710,10 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
-						".VCF"
+						"VCF"
         	   		],
 					"size" : 494,
 			        "unit" : {
@@ -731,7 +733,7 @@
 			"description": "Chromosome 14",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -808,9 +810,14 @@
 			],
 			"types": [
 				{
-					"information": {
-						"value": "genomics"
-					}
+        		    "identifier": "ilx_0741204",
+                    "identifierSource":"http://uri.interlex.org/ilx_0741204",
+					"value": "genomics"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "1000 Genomes Project"
 				}
 			],
 			"dates": [
@@ -821,15 +828,10 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
-						".VCF"
+						"VCF"
         	   		],
 					"size" : 447,
 			        "unit" : {
@@ -849,7 +851,7 @@
 			"description": "Chromosome 15",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -926,9 +928,14 @@
 			],
 			"types": [
 				{
-					"information": {
-						"value": "genomics"
-					}
+        		    "identifier": "ilx_0741204",
+                    "identifierSource":"http://uri.interlex.org/ilx_0741204",
+					"value": "genomics"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "1000 Genomes Project"
 				}
 			],
 			"dates": [
@@ -939,15 +946,10 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
-						".VCF"
+						"VCF"
         	   		],
 					"size" : 483,
 			        "unit" : {
@@ -967,7 +969,7 @@
 			"description": "Chromosome 16",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -1044,9 +1046,14 @@
 			],
 			"types": [
 				{
-					"information": {
-						"value": "genomics"
-					}
+        		    "identifier": "ilx_0741204",
+            	    "identifierSource":"http://uri.interlex.org/ilx_0741204",
+					"value": "genomics"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "1000 Genomes Project"
 				}
 			],
 			"dates": [
@@ -1057,15 +1064,10 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
-						".VCF"
+						"VCF"
         	   		],
 					"size" : 424,
 			        "unit" : {
@@ -1085,7 +1087,7 @@
 			"description": "Chromosome 17",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -1162,9 +1164,14 @@
 			],
 			"types": [
 				{
-					"information": {
-						"value": "genomics"
-					}
+        		    "identifier": "ilx_0741204",
+            	    "identifierSource":"http://uri.interlex.org/ilx_0741204",
+					"value": "genomics"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "1000 Genomes Project"
 				}
 			],
 			"dates": [
@@ -1175,15 +1182,10 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
-						".VCF"
+						"VCF"
         	   		],
 					"size" : 426,
 			        "unit" : {
@@ -1203,7 +1205,7 @@
 			"description": "Chromosome 18",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -1280,9 +1282,14 @@
 			],
 			"types": [
 				{
-					"information": {
-						"value": "genomics"
-					}
+        		    "identifier": "ilx_0741204",
+            	    "identifierSource":"http://uri.interlex.org/ilx_0741204",
+					"value": "genomics"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "1000 Genomes Project"
 				}
 			],
 			"dates": [
@@ -1293,15 +1300,10 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
-						".VCF"
+						"VCF"
         	   		],
 					"size" : 351,
 			        "unit" : {
@@ -1321,7 +1323,7 @@
 			"description": "Chromosome 19",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -1398,9 +1400,14 @@
 			],
 			"types": [
 				{
-					"information": {
-						"value": "genomics"
-					}
+        		    "identifier": "ilx_0741204",
+                    "identifierSource":"http://uri.interlex.org/ilx_0741204",
+					"value": "genomics"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "1000 Genomes Project"
 				}
 			],
 			"dates": [
@@ -1411,15 +1418,10 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
-						".VCF"
+						"VCF"
         	   		],
 					"size" : 1.28,
 			        "unit" : {
@@ -1439,7 +1441,7 @@
 			"description": "Chromosome 2",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -1516,9 +1518,14 @@
 			],
 			"types": [
 				{
-					"information": {
-						"value": "genomics"
-					}
+        		    "identifier": "ilx_0741204",
+            	    "identifierSource":"http://uri.interlex.org/ilx_0741204",
+					"value": "genomics"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "1000 Genomes Project"
 				}
 			],
 			"dates": [
@@ -1529,15 +1536,10 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
-						".VCF"
+						"VCF"
         	   		],
 					"size" : 334,
 			        "unit" : {
@@ -1557,7 +1559,7 @@
 			"description": "Chromosome 20",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -1634,9 +1636,14 @@
 			],
 			"types": [
 				{
-					"information": {
-						"value": "genomics"
-					}
+        		    "identifier": "ilx_0741204",
+            	    "identifierSource":"http://uri.interlex.org/ilx_0741204",
+					"value": "genomics"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "1000 Genomes Project"
 				}
 			],
 			"dates": [
@@ -1647,15 +1654,10 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
-						".VCF"
+						"VCF"
         	   		],
 					"size" : 213,
 			        "unit" : {
@@ -1675,7 +1677,7 @@
 			"description": "Chromosome 21",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -1752,9 +1754,14 @@
 			],
 			"types": [
 				{
-					"information": {
-						"value": "genomics"
-					}
+        		    "identifier": "ilx_0741204",
+            	    "identifierSource":"http://uri.interlex.org/ilx_0741204",
+					"value": "genomics"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "1000 Genomes Project"
 				}
 			],
 			"dates": [
@@ -1765,15 +1772,10 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
-						".VCF"
+						"VCF"
         	   		],
 					"size" : 209,
 			        "unit" : {
@@ -1793,7 +1795,7 @@
 			"description": "Chromosome 22",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -1870,9 +1872,14 @@
 			],
 			"types": [
 				{
-					"information": {
-						"value": "genomics"
-					}
+        		    "identifier": "ilx_0741204",
+                	"identifierSource":"http://uri.interlex.org/ilx_0741204",
+					"value": "genomics"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "1000 Genomes Project"
 				}
 			],
 			"dates": [
@@ -1883,15 +1890,10 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
-						".VCF"
+						"VCF"
         	   		],
 					"size" : 1.08,
 			        "unit" : {
@@ -1911,7 +1913,7 @@
 			"description": "Chromosome 3",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -1988,9 +1990,14 @@
 			],
 			"types": [
 				{
-					"information": {
-						"value": "genomics"
-					}
+        		    "identifier": "ilx_0741204",
+            	    "identifierSource":"http://uri.interlex.org/ilx_0741204",
+					"value": "genomics"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "1000 Genomes Project"
 				}
 			],
 			"dates": [
@@ -2001,15 +2008,10 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
-						".VCF"
+						"VCF"
         	   		],
 					"size" : 1.09,
 			        "unit" : {
@@ -2029,7 +2031,7 @@
 			"description": "Chromosome 4",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -2106,9 +2108,14 @@
 			],
 			"types": [
 				{
-					"information": {
-						"value": "genomics"
-					}
+        		    "identifier": "ilx_0741204",
+            	    "identifierSource":"http://uri.interlex.org/ilx_0741204",
+					"value": "genomics"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "1000 Genomes Project"
 				}
 			],
 			"dates": [
@@ -2119,15 +2126,10 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
-						".VCF"
+						"VCF"
         	   		],
 					"size" : 966,
 			        "unit" : {
@@ -2147,7 +2149,7 @@
 			"description": "Chromosome 5",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -2224,9 +2226,14 @@
 			],
 			"types": [
 				{
-					"information": {
-						"value": "genomics"
-					}
+        		    "identifier": "ilx_0741204",
+                	"identifierSource":"http://uri.interlex.org/ilx_0741204",
+					"value": "genomics"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "1000 Genomes Project"
 				}
 			],
 			"dates": [
@@ -2237,15 +2244,10 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
-						".VCF"
+						"VCF"
         	   		],
 					"size" : 976,
 			        "unit" : {
@@ -2265,7 +2267,7 @@
 			"description": "Chromosome 6",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -2342,9 +2344,14 @@
 			],
 			"types": [
 				{
-					"information": {
-						"value": "genomics"
-					}
+        		    "identifier": "ilx_0741204",
+            	    "identifierSource":"http://uri.interlex.org/ilx_0741204",
+					"value": "genomics"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "1000 Genomes Project"
 				}
 			],
 			"dates": [
@@ -2355,15 +2362,10 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
-						".VCF"
+						"VCF"
         	   		],
 					"size" : 886,
 			        "unit" : {
@@ -2383,7 +2385,7 @@
 			"description": "Chromosome 7",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -2460,9 +2462,14 @@
 			],
 			"types": [
 				{
-					"information": {
-						"value": "genomics"
-					}
+        		    "identifier": "ilx_0741204",
+                    "identifierSource":"http://uri.interlex.org/ilx_0741204",
+					"value": "genomics"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "1000 Genomes Project"
 				}
 			],
 			"dates": [
@@ -2473,15 +2480,10 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
-						".VCF"
+						"VCF"
         	   		],
 					"size" : 841,
 			        "unit" : {
@@ -2501,7 +2503,7 @@
 			"description": "Chromosome 8",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -2578,9 +2580,14 @@
 			],
 			"types": [
 				{
-					"information": {
-						"value": "genomics"
-					}
+        		    "identifier": "ilx_0741204",
+                	"identifierSource":"http://uri.interlex.org/ilx_0741204",
+					"value": "genomics"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "1000 Genomes Project"
 				}
 			],
 			"dates": [
@@ -2591,15 +2598,10 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
-						".VCF"
+						"VCF"
         	   		],
 					"size" : 657,
 			        "unit" : {
@@ -2619,7 +2621,7 @@
 			"description": "Chromosome 9",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -2696,9 +2698,14 @@
 			],
 			"types": [
 				{
-					"information": {
-						"value": "genomics"
-					}
+        		    "identifier": "ilx_0741204",
+            	    "identifierSource":"http://uri.interlex.org/ilx_0741204",
+					"value": "genomics"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "1000 Genomes Project"
 				}
 			],
 			"dates": [
@@ -2709,15 +2716,10 @@
 					"date": "2015-10-02 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
-						".VCF"
+						"VCF"
         	   		],
 					"size" : 202,
 			        "unit" : {
@@ -2737,7 +2739,7 @@
 			"description": "Mitochondrial genome",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -2814,9 +2816,14 @@
 			],
 			"types": [
 				{
-					"information": {
-						"value": "genomics"
-					}
+        		    "identifier": "ilx_0741204",
+                    "identifierSource":"http://uri.interlex.org/ilx_0741204",
+					"value": "genomics"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "1000 Genomes Project"
 				}
 			],
 			"dates": [
@@ -2827,15 +2834,10 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
-						".VCF"
+						"VCF"
         	   		],
 					"size" : 1.87,
 			        "unit" : {
@@ -2855,7 +2857,7 @@
 			"description": "Chromosome X",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
@@ -2932,9 +2934,14 @@
 			],
 			"types": [
 				{
-					"information": {
-						"value": "genomics"
-					}
+        		    "identifier": "ilx_0741204",
+            	    "identifierSource":"http://uri.interlex.org/ilx_0741204",
+					"value": "genomics"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "1000 Genomes Project"
 				}
 			],
 			"dates": [
@@ -2945,15 +2952,10 @@
 					"date": "2015-02-18 00:00:00"
 				}
 			],
-			"keywords": [
-				{
-					"value" : "genomics"
-				}
-			],
 		  	"distributions": [
 	    	    {
 					"formats": [
-						".VCF"
+						"VCF"
         	   		],
 					"size" : 5.73,
 			        "unit" : {
@@ -2973,7 +2975,7 @@
 			"description": "Chromosome Y",
 			"licenses": [
 				{
-					"name": "BY-NC-SA"
+					"name": "CC BY-NC-SA"
 				}
 			],
 			"storedIn": {
