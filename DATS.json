@@ -17,11 +17,10 @@
 	],
 	"types": [
 		{
-            "identifier": {
-                "identifier": "ilx_0741204",
-                "identifierSource":"http://uri.interlex.org/ilx_0741204"
-            },
-			"value": "genomics"
+            "information": {
+                "value": "genomics",
+                "valueIRI":"http://uri.interlex.org/ilx_0741204"
+            }
 		}
 	],
 	"keywords": [
@@ -102,9 +101,10 @@
 			],
 			"types": [
 				{
-        	        "identifier": "ilx_0741204",
-                    "identifierSource":"http://uri.interlex.org/ilx_0741204",
-		            "value": "genomics"
+					"information": {
+	        	        "value": "genomics",
+                    	"valueIRI": "http://uri.interlex.org/ilx_0741204"
+		            }
                 }
 			],
 			"keywords": [
@@ -220,9 +220,10 @@
 			],
 			"types": [
 				{
-        		    "identifier": "ilx_0741204",
-                	"identifierSource":"http://uri.interlex.org/ilx_0741204",
-                    "value": "genomics"
+					"information": {
+	        		    "value": "genomics",
+                		"valueIRI": "http://uri.interlex.org/ilx_0741204"
+                    }
                 }
 			],
 			"keywords": [
@@ -338,9 +339,10 @@
 			],
 			"types": [
 				{
-        		    "identifier": "ilx_0741204",
-                    "identifierSource":"http://uri.interlex.org/ilx_0741204",
-				    "value": "genomics"
+					"information": {
+	        		    "value": "genomics",
+	                    "valueIRI": "http://uri.interlex.org/ilx_0741204"
+				    }
 				}
 			],
 			"keywords": [
@@ -456,9 +458,10 @@
 			],
 			"types": [
 				{
-        		    "identifier": "ilx_0741204",
-                    "identifierSource":"http://uri.interlex.org/ilx_0741204",
-				    "value": "genomics"
+					"information": {
+	        		    "value": "genomics",
+	                    "identifierSource":"http://uri.interlex.org/ilx_0741204"
+				    }
 				}
 			],
 			"keywords": [
@@ -574,9 +577,10 @@
 			],
 			"types": [
 				{
-        		    "identifier": "ilx_0741204",
-                    "identifierSource":"http://uri.interlex.org/ilx_0741204",
-					"value": "genomics"
+					"information": {
+	        		    "value": "genomics",
+	                    "valueIRI": "http://uri.interlex.org/ilx_0741204"
+					}
 				}
 			],
 			"keywords": [
@@ -692,9 +696,10 @@
 			],
 			"types": [
 				{
-        		    "identifier": "ilx_0741204",
-                    "identifierSource":"http://uri.interlex.org/ilx_0741204",
-					"value": "genomics"
+					"information": {
+	        		    "value": "genomics",
+	                    "vaueIRI": "http://uri.interlex.org/ilx_0741204"
+					}
 				}
 			],
 			"keywords": [
@@ -810,9 +815,10 @@
 			],
 			"types": [
 				{
-        		    "identifier": "ilx_0741204",
-                    "identifierSource":"http://uri.interlex.org/ilx_0741204",
-					"value": "genomics"
+					"information": {
+	        		    "value": "genomics",
+    	                "valueIRI":"http://uri.interlex.org/ilx_0741204"
+					}
 				}
 			],
 			"keywords": [
@@ -928,9 +934,10 @@
 			],
 			"types": [
 				{
-        		    "identifier": "ilx_0741204",
-                    "identifierSource":"http://uri.interlex.org/ilx_0741204",
-					"value": "genomics"
+					"information": {
+	        			"value": "genomics",
+ 	                 	"valueIRI": "http://uri.interlex.org/ilx_0741204"
+					}
 				}
 			],
 			"keywords": [
@@ -1046,9 +1053,10 @@
 			],
 			"types": [
 				{
-        		    "identifier": "ilx_0741204",
-            	    "identifierSource":"http://uri.interlex.org/ilx_0741204",
-					"value": "genomics"
+					"information": {
+	        		    "value": "genomics",
+    	        	    "valueIRI":"http://uri.interlex.org/ilx_0741204"
+					}
 				}
 			],
 			"keywords": [
@@ -1164,9 +1172,10 @@
 			],
 			"types": [
 				{
-        		    "identifier": "ilx_0741204",
-            	    "identifierSource":"http://uri.interlex.org/ilx_0741204",
-					"value": "genomics"
+					"information": {
+	        		    "value": "genomics",
+	            	    "valueIRI":"http://uri.interlex.org/ilx_0741204"
+					}
 				}
 			],
 			"keywords": [
@@ -1282,9 +1291,9 @@
 			],
 			"types": [
 				{
-        		    "identifier": "ilx_0741204",
-            	    "identifierSource":"http://uri.interlex.org/ilx_0741204",
-					"value": "genomics"
+					"information": {
+	        		    "value": "genomics",
+	            	    "valueIRI": "http://uri.interlex.org/ilx_0741204"
 				}
 			],
 			"keywords": [
@@ -1400,9 +1409,10 @@
 			],
 			"types": [
 				{
-        		    "identifier": "ilx_0741204",
-                    "identifierSource":"http://uri.interlex.org/ilx_0741204",
-					"value": "genomics"
+					"information": {
+	        		    "value": "genomics",
+	                    "valueIRI": "http://uri.interlex.org/ilx_0741204"
+					}
 				}
 			],
 			"keywords": [
@@ -1518,9 +1528,10 @@
 			],
 			"types": [
 				{
-        		    "identifier": "ilx_0741204",
-            	    "identifierSource":"http://uri.interlex.org/ilx_0741204",
-					"value": "genomics"
+					"information": {
+	        		    "value": "genomics",
+	            	    "valueIRI": "http://uri.interlex.org/ilx_0741204"
+					}
 				}
 			],
 			"keywords": [
@@ -1636,9 +1647,10 @@
 			],
 			"types": [
 				{
-        		    "identifier": "ilx_0741204",
-            	    "identifierSource":"http://uri.interlex.org/ilx_0741204",
-					"value": "genomics"
+					"information": {
+	        		    "value": "genomics",
+	            	    "valueIRI": "http://uri.interlex.org/ilx_0741204"
+					}
 				}
 			],
 			"keywords": [
@@ -1754,9 +1766,10 @@
 			],
 			"types": [
 				{
-        		    "identifier": "ilx_0741204",
-            	    "identifierSource":"http://uri.interlex.org/ilx_0741204",
-					"value": "genomics"
+					"information": {
+	        		    "value": "genomics",
+	            	    "valueIRI": "http://uri.interlex.org/ilx_0741204"
+					}
 				}
 			],
 			"keywords": [
@@ -1872,9 +1885,10 @@
 			],
 			"types": [
 				{
-        		    "identifier": "ilx_0741204",
-                	"identifierSource":"http://uri.interlex.org/ilx_0741204",
-					"value": "genomics"
+					"information": {
+	        		    "value": "genomics",
+	                	"valueIRI": "http://uri.interlex.org/ilx_0741204"
+					}
 				}
 			],
 			"keywords": [
@@ -1990,9 +2004,10 @@
 			],
 			"types": [
 				{
-        		    "identifier": "ilx_0741204",
-            	    "identifierSource":"http://uri.interlex.org/ilx_0741204",
-					"value": "genomics"
+					"information": {
+	        		    "value": "genomics",
+	            	    "valueIRI": "http://uri.interlex.org/ilx_0741204"
+					}
 				}
 			],
 			"keywords": [
@@ -2108,9 +2123,10 @@
 			],
 			"types": [
 				{
-        		    "identifier": "ilx_0741204",
-            	    "identifierSource":"http://uri.interlex.org/ilx_0741204",
-					"value": "genomics"
+					"information": {
+	        		    "value": "genomics",
+	            	    "valueIRI": "http://uri.interlex.org/ilx_0741204"
+					}
 				}
 			],
 			"keywords": [
@@ -2226,9 +2242,10 @@
 			],
 			"types": [
 				{
-        		    "identifier": "ilx_0741204",
-                	"identifierSource":"http://uri.interlex.org/ilx_0741204",
-					"value": "genomics"
+					"information": {
+	        		    "value": "genomics",
+	                	"valueIRI": "http://uri.interlex.org/ilx_0741204"
+					}
 				}
 			],
 			"keywords": [
@@ -2344,9 +2361,10 @@
 			],
 			"types": [
 				{
-        		    "identifier": "ilx_0741204",
-            	    "identifierSource":"http://uri.interlex.org/ilx_0741204",
-					"value": "genomics"
+					"information": {
+	        		    "value": "genomics",
+	            	    "valueIRI": "http://uri.interlex.org/ilx_0741204"
+					}
 				}
 			],
 			"keywords": [
@@ -2462,9 +2480,10 @@
 			],
 			"types": [
 				{
-        		    "identifier": "ilx_0741204",
-                    "identifierSource":"http://uri.interlex.org/ilx_0741204",
-					"value": "genomics"
+					"information": {
+	        		    "value": "ilx_0741204",
+                    	"valueIRI": "http://uri.interlex.org/ilx_0741204"
+					}
 				}
 			],
 			"keywords": [
@@ -2580,9 +2599,10 @@
 			],
 			"types": [
 				{
-        		    "identifier": "ilx_0741204",
-                	"identifierSource":"http://uri.interlex.org/ilx_0741204",
-					"value": "genomics"
+					"information": {
+	        		    "value": "genomics",
+	                	"valueIRI":"http://uri.interlex.org/ilx_0741204"
+					}
 				}
 			],
 			"keywords": [
@@ -2698,9 +2718,10 @@
 			],
 			"types": [
 				{
-        		    "identifier": "ilx_0741204",
-            	    "identifierSource":"http://uri.interlex.org/ilx_0741204",
-					"value": "genomics"
+					"information": {
+	        		    "value": "genomics",
+            	    	"valueIRI": "http://uri.interlex.org/ilx_0741204"
+					}
 				}
 			],
 			"keywords": [
@@ -2816,9 +2837,10 @@
 			],
 			"types": [
 				{
-        		    "identifier": "ilx_0741204",
-                    "identifierSource":"http://uri.interlex.org/ilx_0741204",
-					"value": "genomics"
+					"information": {
+	        		    "value": "genomics",
+    	                "valueIRI":"http://uri.interlex.org/ilx_0741204"
+					}
 				}
 			],
 			"keywords": [
@@ -2934,9 +2956,10 @@
 			],
 			"types": [
 				{
-        		    "identifier": "ilx_0741204",
-            	    "identifierSource":"http://uri.interlex.org/ilx_0741204",
-					"value": "genomics"
+					"information": {
+	        		    "value": "genomics",
+	            	    "valueIRI": "http://uri.interlex.org/ilx_0741204"
+					}
 				}
 			],
 			"keywords": [
