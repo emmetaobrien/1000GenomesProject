@@ -1294,6 +1294,7 @@
 					"information": {
 	        		    "value": "genomics",
 	            	    "valueIRI": "http://uri.interlex.org/ilx_0741204"
+					}
 				}
 			],
 			"keywords": [
