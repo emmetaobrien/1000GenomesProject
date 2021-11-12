@@ -353,7 +353,7 @@
 			"dates": [
 				{
 					"type": {
-						"value":"source .vcf file creation date"
+						"value": "source .vcf file creation date"
 					},
 					"date": "2015-02-18 00:00:00"
 				}
@@ -460,7 +460,7 @@
 				{
 					"information": {
 	        		    "value": "genomics",
-	                    "identifierSource":"http://uri.interlex.org/ilx_0741204"
+	                    "valueIRI":"http://uri.interlex.org/ilx_0741204"
 				    }
 				}
 			],
@@ -698,7 +698,7 @@
 				{
 					"information": {
 	        		    "value": "genomics",
-	                    "vaueIRI": "http://uri.interlex.org/ilx_0741204"
+	                    "valueIRI": "http://uri.interlex.org/ilx_0741204"
 					}
 				}
 			],
