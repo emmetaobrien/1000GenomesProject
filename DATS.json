@@ -18,7 +18,7 @@
 	"types": [
 		{
             "information": {
-                "value": "<a href=\"https://scicrunch.org/scicrunch/interlex/search?q=genomics&l=genomics&types=term\">genomics</a>",
+                "value": "genomics",
                 "valueIRI":"http://uri.interlex.org/ilx_0741204"
             }
 		}
